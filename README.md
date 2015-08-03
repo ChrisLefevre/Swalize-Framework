@@ -29,7 +29,7 @@ Il fonctionne de façon inversée. Vous créez d’abord votre site, et ensuite 
 user: admin@swalize.com 
 pass: root
 
-Créez un nouvel utilisateur admin et suprimmer le compte Root.
+Créez un nouvel utilisateur admin et suprimmez le compte Root.
 
 
 
