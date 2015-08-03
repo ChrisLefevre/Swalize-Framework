@@ -35,43 +35,4 @@ if (file_exists($listnav[$page])) include ($listnav[$page]);
 	
 	
 	
-	
-	//var_dump($page);
-	
-	
-	
-	//$smod = new swcnt_smod();
-	//$adm = new swcnt_sadmin();
-	//$sblog = new swcnt_sblog();	
-	
-	/*
-	
-
-//if ($_POST) 
-
-	
-if(!$adm->islogged()) {
-	
-	
-	
-	$adm->login();
-	include 'inc/tmp_login.php';
-	
-	
-}
-else
-	{
-		if(!empty($smod->mod) and $smod->mod=='update') include('inc/update.php');
-		else if(!empty($smod->mod) and $smod->mod=='uploader') include('inc/uploader.php');
-		else {
-		
-		
-		include 'inc/header.php';
-		if(!empty($smod->mod)) include('pages/'.$smod->mod.'.php');
-	 
-		 include 'inc/footer.php';
-		 	}
-		 }
-	
-*/
 ?>
