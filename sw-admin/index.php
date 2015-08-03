@@ -28,7 +28,6 @@
 $adm -> setMylang();	
 	
 
-//if ($_POST) 
 
 	
 if(!$adm->islogged()) {
