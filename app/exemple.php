@@ -13,11 +13,9 @@ $datas = json_decode($source, true);
 		
 		<h3><?php echo $datas['baseline']; ?></h3>
 		<pre>
-	
 <?php
 	
 var_dump($datas);
-
 
 ?>
 
