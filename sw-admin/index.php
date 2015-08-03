@@ -15,19 +15,6 @@
 
 
 
-/* 
-	$_SESSION['language']=$lang;
-	setcookie("language", $lang, time()+(3600*60*300), "/");
-
-	
-	*/
-
-
-
-
-
-
-
 
 	
 	
