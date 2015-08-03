@@ -1,0 +1,9 @@
+RewriteEngine on
+
+
+
+
+RewriteRule ^([a-z]+){1,3}\/([a-z_]+)\/([A-Z­a-z­0-9­-]+)$ index.php?lang=$1&page=$2&id=$3 [L]
+RewriteRule ^([a-z]+){1,3}\/([a-z_]+)$ index.php?lang=$1&page=$2 [L]
+RewriteRule ^([a-z]+){1,3}\/([0-9­])$ index.php?lang=$1&id=$2 [L]
+RewriteRule ^([a-z]+){1,3}\/$ index.php?lang=$1 [L]
