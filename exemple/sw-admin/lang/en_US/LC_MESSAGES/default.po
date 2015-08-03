@@ -1,0 +1,2099 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Exxtime\n"
+"POT-Creation-Date: 2015-05-31 11:36+0100\n"
+"PO-Revision-Date: 2015-05-31 11:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: /Volumes/Macintosh HD/Applications/MAMP/htdocs/sites/"
+"speektime/site\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: /Volumes/Macintosh HD/Applications/MAMP/htdocs/sites/"
+"speektime/site\n"
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "all months"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "January"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "February"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "March"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "April"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "May"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "June"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "July"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "August"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "September"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "October"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "November"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:59
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:154
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:13
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:171
+msgid "December"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:120
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:333
+msgid "Home"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:126
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:242
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:15
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:25
+msgid "New User"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:142
+msgid "Search on speektime"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:151
+msgid "Exit"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:273
+msgid "Fist name"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:280
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:62
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:105
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:154
+msgid "Last name"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:319
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:70
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:116
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:179
+msgid "Birth Year"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:342
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:234
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:207
+msgid "Birth Month"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:355
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:247
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:218
+msgid "Birth Date"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:380
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:91
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:164
+msgid "Birth City"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:382
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:64
+msgid "(Optional)"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:396
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:823
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:100
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_allmembers.php:37
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:146
+msgid "Phone"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:435
+msgid "New Speek"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:443
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:77
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:108
+msgid "Subject"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:481
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:140
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:119
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:160
+msgid "Title"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:515
+msgid "Add Description"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:517
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:168
+msgid "Compose Message"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:550
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:59
+msgid "Select Year"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:574
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:83
+msgid "Select Date"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:597
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:30
+msgid "MP3 File"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:597
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:30
+msgid "Max 50mb"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:603
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:28
+msgid "Loading"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:615
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:32
+msgid "loading"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:674
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:209
+msgid "Post"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:674
+msgid "Save"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:820
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:165
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_allmembers.php:34
+msgid "Name"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:823
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:146
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:97
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:166
+msgid "Email"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:825
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_allmembers.php:39
+msgid "Birthday"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/editors/index.php:828
+msgid "Mother name"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:14
+msgid "Members"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:56
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:105
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:150
+msgid "First name"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:93
+msgid "optional"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addmember.php:115
+msgid "Add new user"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:34
+msgid "New Subject"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:39
+msgid "All Subjects"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:94
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:109
+msgid "Picture"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:123
+msgid "Add a new subject"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:130
+msgid "Save subject"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:134
+msgid "Cancel"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:163
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_allmembers.php:32
+msgid "ID"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:168
+msgid "Pictures"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_addsubject.php:170
+msgid "Actions"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_allmembers.php:14
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_allmembers.php:22
+msgid "All members"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_allmembers.php:15
+msgid "Search Members"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/admin_allmembers.php:20
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:114
+msgid "Admin"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:145
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:166
+msgid "Message"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/editaction.php:149
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:169
+msgid "Add a tag or location"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/photoobject.php:30
+msgid "Wrong format"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/photoobject.php:39
+msgid "Image too Big"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/photoobject.php:67
+msgid "Bad picture"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/photoobject.php:82
+msgid "already exists"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/photoobject.php:280
+msgid "Add a picture"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/photoobject.php:291
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:106
+msgid "Please wait"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:116
+msgid "Insert Title and Push Record"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:152
+msgid "Post Speek"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:165
+msgid "Summary"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:196
+msgid "Year"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:255
+msgid "Play"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:255
+msgid "Stop"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:255
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:491
+msgid "Record"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:255
+msgid "Confirm"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:545
+msgid "Recording Process"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:581
+msgid "Restart"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/api/playcorder.php:586
+msgid "Add details or Restart recording"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:8
+msgid "Write a new Speek"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:96
+msgid "Select Date Range"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:99
+msgid "From"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:101
+msgid "To"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:145
+msgid "Picture for illustration"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/admpublform.inc.php:145
+msgid "Max 1mb"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:20
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:43
+msgid "French"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:21
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:44
+msgid "English"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:22
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:45
+msgid "Dutch"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:62
+msgid "Memories never die"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:121
+msgid "Editors"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:124
+msgid "Member simulator"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:128
+msgid "All subjects"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:140
+msgid "My story"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:151
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:79
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:108
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:239
+msgid "Login"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:162
+msgid "Firstname of my mother"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:163
+msgid "Name of Pet"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:165
+msgid "Other Name/Nickname"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/config.php:166
+msgid "Date of bith"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:74
+msgid "Ascension"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:75
+msgid "Andorra"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:76
+msgid "United Arab Emirates"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:77
+msgid "Afghanistan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:78
+msgid "Antigua And Barbuda"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:79
+msgid "Anguilla"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:80
+msgid "Albania"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:81
+msgid "Armenia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:82
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:83
+msgid "Angola"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:84
+msgid "Antarctica"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:85
+msgid "Argentina"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:86
+msgid "American Samoa"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:87
+msgid "Austria"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:88
+msgid "Australia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:89
+msgid "Aruba"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:90
+msgid "Azerbaijan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:91
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:92
+msgid "Barbados"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:93
+msgid "Bangladesh"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:94
+msgid "Belgium"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:95
+msgid "Burkina Faso"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:96
+msgid "Bulgaria"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:97
+msgid "Bahrain"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:98
+msgid "Burundi"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:99
+msgid "Benin"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:100
+msgid "Bermuda"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:101
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:102
+msgid "Bolivia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:103
+msgid "Brazil"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:104
+msgid "Bahamas"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:105
+msgid "Buthan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:106
+msgid "Bouvet Island"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:107
+msgid "Botswana"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:108
+msgid "Belarus"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:109
+msgid "Belize"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:110
+msgid "Canada"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:111
+msgid "Cocos Islands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:112
+msgid "Republic of Congo"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:113
+msgid "Central African Republic"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:114
+msgid "Congo"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:115
+msgid "Switzerland"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:116
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:117
+msgid "Cook Islands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:118
+msgid "Chile"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:119
+msgid "Cameroon"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:120
+msgid "China"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:121
+msgid "Colombia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:122
+msgid "Costa Rica"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:123
+msgid "Cuba"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:124
+msgid "Cape Verde"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:125
+msgid "Christmas Island"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:126
+msgid "Cyprus"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:127
+msgid "Czech Republic"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:128
+msgid "Germany"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:129
+msgid "Djibouti"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:130
+msgid "Danmark"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:131
+msgid "Dominica"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:132
+msgid "Dominican Republic"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:133
+msgid "Algeria"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:134
+msgid "Ecuador"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:135
+msgid "Estonia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:136
+msgid "Egypt"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:137
+msgid "Western Sahara"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:138
+msgid "Eritrea"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:139
+msgid "Spain"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:140
+msgid "Ethiopia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:141
+msgid "Finland"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:142
+msgid "Fiji"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:143
+msgid "Fakland Islands (Malvinas)"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:144
+msgid "Micronesia (Federal State)"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:145
+msgid "Faroe Islands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:146
+msgid "France"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:147
+msgid "France Métropoliotaine"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:148
+msgid "Gabon"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:149
+msgid "Great Britain"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:150
+msgid "Grenada"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:151
+msgid "Georgia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:152
+msgid "French Guiana"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:153
+msgid "Ghana"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:154
+msgid "Gibraltar"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:155
+msgid "Greenland"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:156
+msgid "Gambia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:157
+msgid "Guinea"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:158
+msgid "Guadeloupe"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:159
+msgid "Equatorial Guinéee"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:160
+msgid "Greece"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:161
+msgid "South Georgia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:162
+msgid "Guatemala"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:163
+msgid "Guam Island"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:164
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:165
+msgid "Guyana"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:166
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:172
+msgid "Hungary"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:167
+msgid "Hong Kong"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:168
+msgid "Heard and Mc Donald"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:169
+msgid "Honduras"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:170
+msgid "Croatia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:171
+msgid "Haiti"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:173
+msgid "Indonesia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:174
+msgid "Ireland"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:175
+msgid "Israel"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:176
+msgid "India"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:177
+msgid "Territory British Indian Ocean"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:178
+msgid "Iraq"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:179
+msgid "Iran"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:180
+msgid "Iceland"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:181
+msgid "Italy"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:182
+msgid "Jamaica"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:183
+msgid "Jordan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:184
+msgid "Japan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:185
+msgid "Kenya"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:186
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:187
+msgid "Cambodia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:188
+msgid "Kiribati"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:189
+msgid "Comoros"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:190
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:191
+msgid "Democratic People's Republic of Korea"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:192
+msgid "Republic of Korea"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:193
+msgid "Kuwait"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:194
+msgid "Cayman Islands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:195
+msgid "Kazakhstan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:196
+msgid "Laos"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:197
+msgid "Lebanon"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:198
+msgid "Saint Lucia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:199
+msgid "Liechtenstein"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:200
+msgid "Sri Lanka"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:201
+msgid "Liberia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:202
+msgid "Lesotho"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:203
+msgid "Lithuania"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:204
+msgid "Luxembourg"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:205
+msgid "Latvia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:206
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:207
+msgid "Morocco"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:208
+msgid "Monaco"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:209
+msgid "Moldova"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:210
+msgid "Madagascar"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:211
+msgid "Marshall Islands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:212
+msgid "Macedonia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:213
+msgid "Mali"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:214
+msgid "Myanmar"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:215
+msgid "Mongolia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:216
+msgid "Macau"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:217
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:218
+msgid "Martinique"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:219
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:222
+msgid "Mauritania"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:220
+msgid "Montserrat"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:221
+msgid "Malta"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:223
+msgid "Maldives"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:224
+msgid "Malawi"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:225
+msgid "Mexico"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:226
+msgid "Malaysia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:227
+msgid "Mozambique"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:228
+msgid "Namibia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:229
+msgid "New Caledonia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:230
+msgid "Niger"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:231
+msgid "Norfolk Island"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:232
+msgid "Nigeria"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:233
+msgid "Nicaragua"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:234
+msgid "Netherlands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:235
+msgid "Norway"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:236
+msgid "Nepal"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:237
+msgid "Nauru"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:238
+msgid "Niue"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:239
+msgid "New Zealand"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:240
+msgid "Oman"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:241
+msgid "Panama"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:242
+msgid "Peru"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:243
+msgid "French Polynesia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:244
+msgid "Papua New Guinea"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:245
+msgid "Philippines"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:246
+msgid "Pakistan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:247
+msgid "Poland"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:248
+msgid "St. Pierre and Miquelon"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:249
+msgid "Pitcairn"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:250
+msgid "Puerto Rico"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:251
+msgid "Portugal"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:252
+msgid "Palau"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:253
+msgid "Paraguay"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:254
+msgid "Qatar"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:255
+msgid "Meeting"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:256
+msgid "Romania"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:257
+msgid "Russian Federation"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:258
+msgid "Rwanda"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:259
+msgid "Saudi Arabia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:260
+msgid "Solomon Islands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:261
+msgid "Seychelles"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:262
+msgid "Sudan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:263
+msgid "Sweden"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:264
+msgid "Singapore"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:265
+msgid "St. Helena"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:266
+msgid "Slavonia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:267
+msgid "Slovakia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:268
+msgid "Sierra Leone"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:269
+msgid "San Marino"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:270
+msgid "Senegal"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:271
+msgid "Somalia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:272
+msgid "Suriname"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:273
+msgid "Sao Tome And Principe"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:274
+msgid "El Salvador"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:275
+msgid "Syria"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:276
+msgid "Swaziland"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:277
+msgid "Turkey and Caicos Islands"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:278
+msgid "Chad"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:279
+msgid "French Southern Territory"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:280
+msgid "Togo"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:281
+msgid "Thailand"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:282
+msgid "Tajikistan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:283
+msgid "Tokelau"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:284
+msgid "Turkmenistan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:285
+msgid "Tunisia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:286
+msgid "Tonga"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:287
+msgid "East Timor"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:288
+msgid "Turkish"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:289
+msgid "Tuvalu"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:290
+msgid "Taiwan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:291
+msgid "Tanzania"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:292
+msgid "Ukraine"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:293
+msgid "Uganda"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:294
+msgid "United Kingdom"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:295
+msgid "United States"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:296
+msgid "in Uruguay"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:297
+msgid "Uzbekistan"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:298
+msgid "Vatican"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:299
+msgid "St. Vincent and Grenadines"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:300
+msgid "Venezuela"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:301
+msgid "Virgin Islands English"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:302
+msgid "Virgin Islands U.S."
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:303
+msgid "Viet Nam"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:304
+msgid "Vanuatu"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:305
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:306
+msgid "Samoa"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:307
+msgid "Yemen"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:308
+msgid "Mayotte"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:309
+msgid "Yugoslavia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:310
+msgid "South Africa"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:311
+msgid "Zambia"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/functions.php:312
+msgid "Zimbabwe"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:94
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:143
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:339
+msgid "Settings"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:107
+msgid "Your firstname"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:110
+msgid "Your lastname"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:116
+msgid "Location"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:148
+msgid "Your email"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:152
+msgid "Your Phone number"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:182
+msgid "Update Password"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:184
+msgid "New Password"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:186
+msgid "Choose a Secure Password"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:190
+msgid "Confirm New Password"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:192
+msgid "..and confirm it!"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:198
+msgid "Close"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_footer.php:199
+msgid "Save Changes"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:140
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:336
+msgid "Profile"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:144
+msgid "Logout"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:282
+msgid "Most Popular Year"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:293
+msgid "Popular publications"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:341
+msgid "General"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:342
+msgid "Security"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:343
+msgid "Account"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:344
+msgid "Subscription"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:347
+msgid "More Settings"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:366
+msgid "Contact"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:368
+msgid "By Email"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:369
+msgid "By Phone"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:375
+msgid "Search location"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:461
+msgid "Speek"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/inc/page_head.php:474
+msgid "Search All"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:106
+msgid "Speek of "
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:157
+msgid "Results for"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:194
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:248
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:251
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:299
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:301
+msgid "Latest post"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:194
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:248
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:299
+msgid "My following"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:194
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:248
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:251
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:299
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:301
+msgid "Popular"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/index.php:628
+msgid "No Results"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:25
+msgid "Please <strong>Login</strong>"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:46
+msgid "Login Error"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:46
+msgid "Check your email and password"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:59
+msgid "Email/Username"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:67
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:207
+msgid "Password"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:84
+msgid "Forgot password?"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:85
+msgid "Create New Account"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:103
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:108
+msgid "Reset Password"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:134
+msgid "Sorry"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:134
+msgid "Email address is used."
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:215
+msgid "Verify Password"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:228
+msgid "Agree to the terms"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:234
+msgid "Sign up"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:239
+msgid "Do you have an account?"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:255
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/login.php:258
+msgid "Terms &amp; Conditions"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_mypublications.php:112
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_mypublications.php:119
+msgid "You follow"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_mypublications.php:112
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_mypublications.php:114
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_mypublications.php:119
+msgid "Follow"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_mypublications.php:121
+msgid "You Follow"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_mypublications.php:279
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_publication.php:114
+msgid "No Speek has been posted yet"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_mypublications.php:389
+msgid "Edit"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_publication.php:211
+msgid "Show on map"
+msgstr ""
+
+#: /Volumes/Macintosh
+#: HD/Applications/MAMP/htdocs/sites/speektime/site/sn/user_publication.php:225
+msgid "Speek of"
+msgstr ""
+
+#~ msgid "Image too large"
+#~ msgstr "Image too Big"
+
+#~ msgid "Select a Date"
+#~ msgstr "Select Date"
+
+#~ msgid "City of birth"
+#~ msgstr "Birth City"
+
+#~ msgid "Publications of "
+#~ msgstr "Speek of"
+
+#~ msgid "Latest publications"
+#~ msgstr "Latest post"
+
+#~ msgid "Email or Username"
+#~ msgstr "Email/Username"
