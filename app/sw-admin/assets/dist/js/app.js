@@ -370,3 +370,20 @@ function _init() {
 		}
 	};
 }
+
+
+
+
+function SetTempFormModal(ch) {
+$("#form_temp_source").val(ch);
+$("#form_temp_text").val($(ch).val());
+$('#modal-temp').modal('show');
+}
+
+
+function GetTempFormModal() {
+var _v = $("#form_temp_source").val();
+$(_v).val($("#form_temp_text").val());
+$('#modal-temp').modal('hide');
+}
+

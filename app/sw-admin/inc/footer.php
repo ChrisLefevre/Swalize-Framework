@@ -1,5 +1,34 @@
  </div>
  
+ 
+ 
+ 
+ <div id="modal-temp" class="modal fade modal-primary" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+ 
+ <form action="" method="post">
+     <div class="modal-dialog">
+         <div class="modal-content">
+   
+ 
+             <div class="modal-header text-center">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+ 
+                 
+             <input type="hidden"  id="form_temp_source" name="form_temp_source" class="form-control">
+ 
+            <div class="form-group"> 
+             <textarea id="form_temp_text" name="form_temp_text"  rows="9" class="form-control" placeholder=""></textarea> </div>
+            
+                 <button type="button" onclick="GetTempFormModal()" name="delete_user" value="1" class="btn btn-outline"><?php echo _("Save"); ?></button>
+             </div>
+         </div>
+     </div>
+ </form>
+ </div>
+ 
+ 
+ 
+ 
  <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
 	<div class='lightbox-content'>
 		<img src="image.png">

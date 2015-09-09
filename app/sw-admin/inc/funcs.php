@@ -761,6 +761,8 @@ class swcnt_sforms
 			if
 			(!empty($_POST))
 			{
+			
+
 				
 
 				$return = array();
@@ -784,7 +786,8 @@ class swcnt_sforms
 
 				$final = json_encode($return);
 
-
+			
+			
 
 
 				if
@@ -856,8 +859,12 @@ class swcnt_sforms
                   <table class="table table-hover dtable">
                     <tbody><tr><th></th>'; 
 			
+			
+			
+			
+			
 			foreach($sub as $o) {
-				echo '<th>'.$o['label'].'</th>';
+				if($ov['type']=='input_txt') echo '<th>'.$o['label'].'</th>';
 			}
 			                    
               echo '<th></th></tr>';
@@ -887,7 +894,7 @@ class swcnt_sforms
 			
 			echo '<tr id="liItem'.$i.'">'; 
 			
-			 echo '<td class="movable"><i class="fa fa-fw fa-sort"></i> <input type="hidden" value="'.$i.'" id="inputtitle" name="navigation['.$i.'][position]" class="form-control" /></td>';
+			 echo '<td class="movable"><i class="fa fa-fw fa-sort"></i> <input type="hidden" value="'.$i.'" id="inputtitle" name="'.$k.'['.$i.'][position]" class="form-control" /></td>';
 	            
                      
             foreach($sub as $ok => $ov) {   
@@ -900,9 +907,36 @@ class swcnt_sforms
 	            
 	           
 	            
+	            /* Add a Textarea and Picture in list */
+	            
+	            
+	              if($ov['type']=='picture') {
+	              
+	              if
+	              (!empty($value)) $thumb = 'upload/thumb/'.$value; else $thumb =  'assets/dist/img/boxed-bg.jpg';
+	              if
+	              (!empty($value)) $prev = 'upload/gallery/'.$value; else $prev =  '';
+	              
+	              echo '<td><div>
+	              <iframe class="picturbtn" src="?uploader='.$i.'_'.$ok.'" width="100px" frameborder="0" scrolling="no" height="35px"></iframe>
+	              <a href="'.$prev.'" data-title="'.$v['label'].'" data-toggle="lightbox"><img class="picturpreview" id="picturpreview-'.$i.'_'.$ok.'" width="40" height="40" src="'.$thumb.'" /></a>
+	              <input name="'.$k.'['.$i.']['.$ok.']" value="'.$value.'" id="picturelement-'.$i.'_'.$ok.'" type="hidden" />
+	              </div></td>';
+	               }
+	            
+	            
+	            
+	            if($ov['type']=='textarea')
+	            
+	            echo '<td><input onclick="SetTempFormModal(\'#inputtitle_'.$i.'_'.$ok.'\')" type="text" value="'.$value.'" id="inputtitle_'.$i.'_'.$ok.'" name="'.$k.'['.$i.']['.$ok.']" class="form-control" placeholder="'.$ov['placeholder'].'"></td>';
+	         
+	            
+	            
+	           
+	            
 	            if($ov['type']=='input_txt')
 	            
-	            echo '<td><input type="text" value="'.$value.'" id="inputtitle" name="navigation['.$i.']['.$ok.']" class="form-control" placeholder="'.$ov['placeholder'].'"></td>';
+	            echo '<td><input type="text" value="'.$value.'" id="inputtitle_'.$i.'_'.$ok.'" name="'.$k.'['.$i.']['.$ok.']" class="form-control" placeholder="'.$ov['placeholder'].'"></td>';
                  }
                       
                      
@@ -914,16 +948,7 @@ class swcnt_sforms
 </td></tr>';
 
 			}
-			
-                    
-                    
-                   
-                    
-                    
-                    
-                              
-                  
-                                    echo '</tbody></table>
+			  echo '</tbody></table>
                                     
                                      <a href="javascript:void(0)" id="addelemdtable" class="btn  btn-sm bg-aqua color-palette" data-widget="add" title="Add"><i class="fa fa-check"></i> Ajouter</a>    
 
