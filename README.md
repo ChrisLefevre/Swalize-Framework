@@ -1,19 +1,21 @@
-# [Swalize LightCms](http://swalize.com/) 0.01 beta
+# [Swalize Framework](http://swalize.com/) 0.02 
 
-Ce CMS est réalisé pour répondre à un besoin simple de rapidité. Il permet de créer un site vitrine d’entreprise multilingue rapidement sans base de donnée. Il permet également de créer une administration évolutive. 
+Ce Frameworks CMS est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d’entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce framewoks dispose de son propre moteur de DB orienté Document JSON.  Il permet également de créer une administration évolutive.
 
-Il fonctionne de façon inversée. Vous créez d’abord votre site, et ensuite vous définissez des zone éditable sur celui-ci. Il ne permet donc pas créer des pages à la volée.
+Swalize Framework est égalemen un CMS avec des fonctionnalités classiques mais il fonctionne de façon inversée. Vous créez d’abord votre site, et ensuite vous définissez des zone éditable sur celui-ci. Il ne permet donc pas créer des pages à la volée.
 
-## C’est une base que vous pouvez faire évoluer vous même.  
+Il est totalement indiqué pour des sites responsive Bootstrap, et se montre beaucoup plsu efficace que Wordpress pour les sites onepage multilingue.  
+
+## Swalize-Framework est également une base que vous pouvez faire évoluer vous même.  
 
 * Il permet de créer facilement des sites multilingues
 * Il pensé pour les sites onepage ou multipage dont la structure ne bouge pas.
 * Il dispose de fonction de blogging.
 * Il peut sauvegarder les mails envoyé depuis le formulaire de contact.
 * Il n’est pas optimisé pour les gros sites avec beaucoup de contenu.
-* Il fonctionne sans base de donnée mais les données sensibles sont encryptées.    
- 
+* Il fonctionne sans base de donnée mais les données sensibles peuvent être encryptées.    
 
+Je publierai régulièrement des mises à jour et des nouveaux modules sur Github.  
      
 
 ## Comment débuter? 
