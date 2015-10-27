@@ -13,7 +13,8 @@ Il est totalement indiqué pour des sites responsive Bootstrap, et se montre bea
 * Il dispose de fonction de blogging.
 * Il peut sauvegarder les mails envoyé depuis le formulaire de contact.
 * Il n’est pas optimisé pour les gros sites avec beaucoup de contenu.
-* Il fonctionne sans base de donnée mais les données sensibles peuvent être encryptées.    
+* Il fonctionne sans base de donnée mais les données sensibles peuvent être encryptées.
+* Il est particulièrement efficace pour administrer des apps iOS et Android car sa DB de présente comme un webservice. 
 
 Je publierai régulièrement des mises à jour et des nouveaux modules sur Github.  
      
