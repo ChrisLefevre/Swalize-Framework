@@ -51,14 +51,14 @@ Ce document est le couteau suisse du CMS. C’est dans ce document que vous pour
 ### Options ($swcnt_options)
 
 _Ajouter ou enlevez une langue_
-
+```php
     'languages' => array(
         'fr',
         'en'
     ) ,
-
+```
 _Définir de nouvelle langues_
-
+```php
 ‘languages_names’ => array(
 
         'fr' => "Français",
@@ -66,7 +66,7 @@ _Définir de nouvelle langues_
         'nl' => "Nederlands",
         'de' => "Deutsch"
     ) ,
-
+```
 _La Clé de sécurité doit être modifiée avant de commencer_
 
     'secure_key' => ‘xxx765abc54’,
@@ -104,7 +104,7 @@ L’admin du site se construit avec des « blocks » qui sont simplement des t
 Le tableau $swcnt_tree contient les pages de l’espace « Editeur ». Vous pouvez créer facilement l’administration d’une page d’accueil, du footer.
 
 Ajouter ce tableau permet de créer la page Popol dans l’admin.
-
+```php
     $swcnt_tree[‘popol’] = array(
 
         ’sw_title’ => ‘Page de Popol’,
@@ -113,18 +113,19 @@ Ajouter ce tableau permet de créer la page Popol dans l’admin.
 
     	)
     );
+```
 
-    Le « block » suivant est utilisé pour gérer la page d’infos du site. Chaque block est un champ dans la DB. 
+Le « block » suivant est utilisé pour gérer la page d’infos du site. Chaque block est un champ dans la DB. 
 
-    Les différents types de champs sont :
+Les différents types de champs sont :
 
-    input_txt
-    textarea
-    htmlarea -> éditeur wysiwyg summernote
-    blogarea -> éditeur wysiwyg tinymce
-    select
-    checkbox
-    tags
-    picture -> un bouton pour télécharger une photo.
-    list -> permet de créer une sous-liste de champs en tableau. Pratique pour créer un album photos ou la navigation du site.
+* input_txt
+* textarea
+* htmlarea -> éditeur wysiwyg summernote
+* blogarea -> éditeur wysiwyg tinymce
+* select
+* checkbox
+* tags
+* picture -> un bouton pour télécharger une photo.
+* list -> permet de créer une sous-liste de champs en tableau. Pratique pour créer un album photos ou la navigation du site.
 
