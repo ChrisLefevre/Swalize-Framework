@@ -106,6 +106,31 @@ Le tableau $swcnt_tree contient les pages de l’espace « Editeur ». Vous po
 Ajouter ce tableau permet de créer la page Popol dans l’admin.
 ```php
     $swcnt_tree[‘popol’] = array(
+<<<<<<< Updated upstream
+=======
+
+        ’sw_title’ => ‘Page de Popol’,
+
+        ’sw_blocks’ => array(
+
+    	)
+    );
+```
+
+Le « block » suivant est utilisé pour gérer la page d’infos du site. Chaque block est un champ dans la DB. 
+
+Les différents types de champs sont :
+
+* input_txt
+* textarea
+* htmlarea -> éditeur wysiwyg summernote
+* blogarea -> éditeur wysiwyg tinymce
+* select
+* checkbox
+* tags
+* picture -> un bouton pour télécharger une photo.
+* list -> permet de créer une sous-liste de champs en tableau. Pratique pour créer un album photos ou la navigation du site.
+>>>>>>> Stashed changes
 
         ’sw_title’ => ‘Page de Popol’,
 
