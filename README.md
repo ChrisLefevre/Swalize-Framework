@@ -1,28 +1,38 @@
-# [Swalize Framework](http://swalize.com/) 0.02 
+# [Swalize CMS](http://swalize.com/) 1.0 
 
-Ce Frameworks CMS est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d’entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce framewoks dispose de son propre moteur de DB orienté Document JSON.  Il permet également de créer une administration évolutive.
+Développez en PHP5, ce CMS est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d’entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce CMS dispose de son propre moteur de DB orienté Document JSON. 
 
-Swalize Framework est égalemen un CMS avec des fonctionnalités classiques mais il fonctionne de façon inversée. Vous créez d’abord votre site, et ensuite vous définissez des zone éditable sur celui-ci. Il ne permet donc pas créer des pages à la volée.
+Il permet également de créer une administration évolutive.
 
-Il est totalement indiqué pour des sites responsive Bootstrap, et se montre beaucoup plsu efficace que Wordpress pour les sites onepage multilingue.  
+Swalize Framework est également un CMS avec des fonctionnalités classiques mais il fonctionne de façon peu conventionnelle. Son admin se customise avec un tableau. Vous pouver créer votre site et ensuite vous définir des zones éditables.
+
+Il est totalement indiqué pour des sites responsive Bootstrap, et se montre beaucoup plus efficace que Wordpress pour les sites onepage multilingue.
+
+  
 
 ## Swalize-Framework est également une base que vous pouvez faire évoluer vous même.  
 
 * Il permet de créer facilement des sites multilingues
+* IL supporte les plugins
 * Il pensé pour les sites onepage ou multipage dont la structure ne bouge pas.
-* Il dispose de fonction de blogging.
+* Il dispose de fonction de publication d’article avec des champs customisables.
+* Il peut gérer un portfolio ou un catalogue de produit.
 * Il peut sauvegarder les mails envoyé depuis le formulaire de contact.
 * Il n’est pas optimisé pour les gros sites avec beaucoup de contenu.
 * Il fonctionne sans base de donnée mais les données sensibles peuvent être encryptées.
-* Il est particulièrement efficace pour administrer des apps iOS et Android car sa DB de présente comme un webservice. 
+* Il peut être efficace comme admin simple pour paramétres à distance des apps iOS et Android car il génère des données au format Json. 
 
-Je publierai régulièrement des mises à jour et des nouveaux modules sur Github.  
-     
+Et évidemment, il sera régulièrement mis à jour sur Github.  
+ 
+
+    
 
 ## Comment débuter? 
 
+C’est très simple. 
+
 ### Editez le fichier ./sw-admin/controls/models.php 
--> modifiez  secure_key , cette clé encrypte les DB.  Si vous la modifiez, vous perdez vos données mais les blocks et articles resteront disponibles.
+-> modifiez  secure_key , cette clé encrypte les DB.  Si vous la modifiez, vous perdez vos données mais les blocks et articles resteront disponibles. 
 
 -> Définissez les langues,
 -> Définissez votre structure de donnée. 
@@ -32,7 +42,247 @@ Je publierai régulièrement des mises à jour et des nouveaux modules sur Githu
 user: admin@swalize.com 
 pass: root
 
-Créez un nouvel utilisateur admin et suprimmez le compte Root.
+Créez un nouvel utilisateur admin et supprimez le compte Root.
+
+Pensez à modifier « Site URL » dans l’éditeur. 
+
+
+## Le fichier models.php : Les options 
+
+Ce document est le couteau suisse du CMS. C’est dans ce document que vous pourrez structurer l’admin du site. 
+
+### Options  ($swcnt_options)
+
+*Ajouter ou enlevez une langue* 
+
+	'languages' => array(
+		'fr',
+		'en'
+	) ,
+
+*Définir de nouvelle langues*
+ 
+'languages_names' => array(
+		'fr' => "Français",
+		'en' => "English",
+		'nl' => "Nederlands",
+		'de' => "Deutsch"
+	) ,
+
+
+*La Clé de sécurité doit être modifiée avant de commencer*
+
+	'secure_key' => ‘xxx765abc54’,
+	
+*Passez sur False si le serveur ne supporte pas l’URL Rewriting*
+	'urlrewriting' => true,
+
+*Ce n’est pas obligatoire mais vous pouvez ajoutez votre adresse email*
+
+	'contact_email' => '',
+	
+*Si activée, cette fonction peut poser des problèmes de compatibilité.*
+
+	'crypt' => 0,
+
+	
+*Ici, vous pouvez activer les fonctions de blogging mais également ajouter un catalogue de produit ou un portfolio. A l’usage, ces 3 outils se comportent de façon identiques mais vous pouvez les configurer individellement* 
+
+	'blog' => 1,
+	'catalog' => 0,
+	'portfolio' => 0
+
+### Plugins  ($swcnt_plugins) 
+*liste des plugins. Ajouter contact form peut être utile* 
+
+'contact_form', 
+
+
+
+## Le fichier models.php : La structure de données
+
+ 
+L’admin du site se construit avec des « blocks » qui sont simplement des tableaux en PHP. Il est donc très facile d’ajouter un champ ou un éditeur wysiwyg dans l’administration du site. Le contenu du champ pourra être récupéré aisément sur le site.
+
+### $swcnt_tree 
+
+Le tableau $swcnt_tree contient les pages de l’espace « Editeur ». Vous pouvez créer facilement l’administration d’une page d’accueil, du footer. 
+
+Ajouter ce tableau permet de créer la page Popol dans l’admin.
+
+$swcnt_tree['popol'] = array(
+    'sw_title' => ‘Page de Popol’,
+    'sw_blocks' => array(
+	)
+);
+
+
+Le « block » suivant est utilisé pour gérer la page d’infos du site. Chaque block est un champ dans la DB. 
+
+
+**Les différents types de champs sont :**
+ 
+* input_txt 
+* textarea
+* htmlarea -> éditeur wysiwyg summernote 
+* blogarea -> éditeur wysiwyg tinymce
+* select
+* checkbox
+* tags
+* picture -> un bouton pour télécharger une photo. 
+* list -> permet de créer une sous-liste de champs en tableau. Pratique pour créer un album photos ou la navigation du site. 
+
+##### Exemple:
+
+$swcnt_tree['siteinfos'] = array(
+    'sw_title' => 'site infos',
+    'sw_blocks' => array(
+        'title' => array(
+            'label' => _('Site title'),
+            'type' => 'input_txt',
+            'placeholder' => 'Mon site'
+        ),
+        'baseline' => array(
+            'label' => _('Site baseline'),
+            'type' => 'input_txt',
+            'placeholder' => 'Un site cool pour tout le monde'
+        ),
+        'site_url' => array(
+            'label' => _('Site URL'),
+            'type' => 'input_txt',
+            'placeholder' => 'http://mysite.com'
+        ),
+        'navigation' => array(
+            'label' => 'Navigation',
+            'type' => 'list',
+            'placeholder' => '',
+            'submenu' => array(
+                'name' => array(
+                    'label' => _('Page name'),
+                    'type' => 'input_txt',
+                    'placeholder' => 'Mon page'
+                ),
+                'url' => array(
+                    'label' => _('URL'),
+                    'type' => 'input_txt',
+                    'placeholder' => 'mapage'
+                )
+            )
+        ),
+        'twitter' => array(
+            'label' => 'Profil twitter',
+            'type' => 'input_txt',
+            'placeholder' => 'http://twitter.com/swalize'
+        ),
+        'facebook' => array(
+            'label' => 'Profil facebook',
+            'type' => 'input_txt',
+            'placeholder' => 'http://facebook.com/swalize'
+        ),
+    )
+);
+
+
+
+### $swcnt_blog, $swcnt_portfolio, $swcnt_catalog
+
+Il s’agit de la structure des page d’articles, de produits ou de portfolio. Customisable avec les mêmes champs que le $swcnt_tree. Attention, certains champs sont utiles :« title,pubdate,category » 
+
+### $swcnt_form 
+Utiles pour stocker des formulaires utilisés par les plugins ou le site. Par exemple : 
+
+
+
+$swcnt_form['contactform'] = array(
+	'firstname' => array(
+		'label' => 'Firstname',
+		'type' => 'input_txt',
+		'required'  => 'Please enter your name.'
+	),
+
+	'lastname' => array(
+		'label' => 'Lastname',
+		'type' => 'input_txt',
+		'required'  => 'Please enter your name.'
+	),
+
+	'email' => array(
+		'label' => 'Email Adress',
+		'type' => 'input_txt',
+		'required'  => 'Please enter your email address.'
+	),
+	'message' => array(
+		'label' => 'Message',
+		'type' => 'textarea',
+		'required'  => 'Please enter your message.'
+	)
+);
+
+
+
+## développer son thème.
+
+
+Pour connecter Swalize CMS à un site, il suffit de l’inclure dans vos pages ou templates de cette façon. 
+
+<?php 
+	define('ADMIN_URL','sw-admin/');
+	include ADMIN_URL.'inc/system.php'; 
+?>  
+
+la racine du site est disponible avec $site_url ou $sw_vars['site_url’];  
+le reste des données se récupère avec $sw 
+
+*Langue en cours*
+$sw -> lang;
+
+*récupérer dans un tableau les données qui sont sauvées avec le formulaire $swcnt_tree[‘page_de_test’]*
+
+$sw -> block('page_de_test');
+
+*générer une uri* 
+$sw ->uri('page','arguments') 
+
+*Traduire une phrase et l’importer dans l’admin de traduction*
+$sw -> _(‘phrase à traduire’); 
+
+*Obtenir le contenu d’un article dans un tableau. L’identifiant peut être le champ*
+$sw -> blogpost(‘identifiant de la page’,’blog' ou ‘portfolio’ ou ‘catalog’);
+
+
+*Lister les articles avec certains filtres*
+$sw -> blogposts(‘n° de page 1,2,3,…’),’Nb maximum d’articles (100)’,’categorie ou 0’,’tag’,’blog' ou ‘portfolio’ ou ‘catalog’);
+
+*Lister les categories*
+$sw -> listCats(’blog' ou ‘portfolio’ ou ‘catalog’);
+
+*Nom d’une catégorie à partir de son identifiant (slug)*
+$sw -> getCatName($catId,’blog' ou ‘portfolio’ ou ‘catalog’) ;
+
+*Supprimer les caractères spéciaux d’une chaine pour générer une url*
+$sw -> format_url(‘texte’);
+
+
+##### Exemple d’utilisation : 
+
+
+
+
+define('ADMIN_URL', 'sw-admin/');
+include ADMIN_URL.'inc/system.php';
+
+/* Afficher les 100 derniers articles */
+
+foreach ($sw ->  blogposts(1, 100, 0,'','blog') as $k => $v)
+		{
+		echo '<img src="'.$sw_vars['site_url'] . ADMIN_URL.'upload/show/380/'.$v['illustration'].'" />';
+		echo '<h5>'.$v['title'].'</h5>
+              <h6>'.$v['headline'].'</h6>
+              <a href="'.$sw_vars['site_url'].$sw->uri('article',$v['urltxt']).'">Lire la suite</a>';
+  		} 
+
+
+
 
 
 
