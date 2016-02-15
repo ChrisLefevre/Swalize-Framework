@@ -1,12 +1,14 @@
 # [Swalize CMS](http://swalize.com/) 1.0
 
-Développez en PHP5, ce CMS est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce CMS dispose de son propre moteur de DB orienté Document JSON.
+Développez en PHP5, ce CMS est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce CMS dispose de son propre moteur de DB orienté Document JSON. 
 
 Il permet également de créer une administration évolutive.
 
 Swalize Framework est également un CMS avec des fonctionnalités classiques mais il fonctionne de façon peu conventionnelle. Son admin se customise avec un tableau. Vous pouver créer votre site et ensuite vous définir des zones éditables.
 
-Il est totalement indiqué pour des sites responsive Bootstrap, et se montre beaucoup plus efficace que Wordpress pour les sites onepage multilingue.
+Il est totalement indiqué pour des sites responsive Bootstrap, et se montre beaucoup plus efficace que Wordpress pour les sites onepage multilingues. 
+
+Découvrez [le site du projet](http://swalize.com/1.0/). 
 
 ## Swalize-Framework est également une base que vous pouvez faire évoluer vous même.
 
