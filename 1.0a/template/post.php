@@ -20,14 +20,14 @@ include 'template/inc_head.php';
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('<?php if(!empty($bpost['cover'])) echo $site_url . ADMIN_URL.'upload/full/'.$bpost['cover'];  else echo TEMPLATE_URL.'/img/post-bg.jpg'; ?>')">
+    <header class="intro-header" style="background-image: url('<?php if(!empty($bpost['cover'])) echo SITE_URL . ADMIN_URL.'upload/full/'.$bpost['cover'];  else echo TEMPLATE_URL.'/img/post-bg.jpg'; ?>')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
                         <h1><?php echo $bpost['title']; ?></h1>
                         <h2 class="subheading"><?php echo $bpost['headline'];  ?></h2>
-                        <span class="meta"><?php echo $sw->_("Posted by"); ?>  <?php echo ucFirst($bpost['author']); ?> <?php echo $sw->_("on"); ?> <?php echo  $sw->dateTime($bpost['pubdate']); ?> | <a href="<?php echo $site_url.$sw->uri('cat',$bpost['category']); ?>" class="catlink catlink_c<?php echo $bpost['category']; ?>"><?php echo $bpost['categoryName']; ?></a> </span>
+                        <span class="meta"><?php echo $sw->_("Posted by"); ?>  <?php echo ucFirst($bpost['author']); ?> <?php echo $sw->_("on"); ?> <?php echo  $sw->dateTime($bpost['pubdate']); ?> | <a href="<?php echo SITE_URL.$sw->uri('cat',$bpost['category']); ?>" class="catlink catlink_c<?php echo $bpost['category']; ?>"><?php echo $bpost['categoryName']; ?></a> </span>
                         
                         
                                                
@@ -54,7 +54,7 @@ include 'template/inc_head.php';
 			$i = 0;
 			foreach($tags as $gt) {
 			if($i > 0)	echo ', '; $i ++;
-			echo ' <a href="'.$sw_vars['site_url'].$sw->uri('tag',$sw->format_url($gt)).'">'.$gt.'</a>';
+			echo ' <a href="'.SITE_URL.$sw->uri('tag',$sw->format_url($gt)).'">'.$gt.'</a>';
 				
 			}
 														

@@ -1,4 +1,4 @@
-<?php
+<?php /* Vers 1.0a */
 include (ADMIN_URL . 'controls/models.php');
 
 class sw
@@ -18,6 +18,7 @@ class sw
 
 			}
 
+		$this->site_url = '';	
 		$this->plugins = $swcnt_pluglist;
 		$swcnt_languages = $swcnt_options['languages'];
 		$swcnt_secure_key = $swcnt_options['secure_key'];
@@ -33,7 +34,9 @@ class sw
 		$this->crypt = $swcnt_crypt;
 		$this->urlrewriting = $swcnt_urlrewriting;
 		}
-
+		
+		
+		
 	public
 
 	function format_url($texte)
@@ -302,6 +305,11 @@ class sw
 	function block($actpage)
 		{
 		global $swcnt_tree;
+		
+		
+		
+
+		
 		$actlang = $this->lang;
 		$slots = array();
 		if ($actpage != '' and !empty($swcnt_tree[$actpage]['sw_blocks']))
@@ -313,7 +321,9 @@ class sw
 			$this->page = $actpage;
 			if (file_exists($doc))
 				{
+					
 				$d = file_get_contents($doc);
+				$d = str_replace('src=\"upload', 'src=\"' . $this->site_url . ADMIN_URL . 'upload', $d);
 				$d = str_replace("[lang]", $actlang, $d);
 				$d = str_replace("[site_url]", SITE_URL, $d);
 				$d = str_replace("[base_url]", SITE_URL . $actlang . '/', $d);
@@ -578,18 +588,21 @@ class sw
 	function getPostBlogById($id,$pubtype = 'blog')
 		{
 		global $swcnt_blog;
+		
 		if (!empty($swcnt_blog['sw_blocks']))
 			{
 			$structure = $swcnt_blog['sw_blocks'];
 			$doc = ADMIN_URL . 'ldb/'.$pubtype.'/' . $id . '.source.json';
 			$this->structure = $structure;
 			$this->doc = $doc;
+			
+			
 			if (file_exists($doc))
 				{
 				$d = file_get_contents($doc);
+				$d = str_replace('src=\"upload', 'src=\"' . $this->site_url . ADMIN_URL . 'upload', $d);
 				$slots = json_decode($d, true);
-				$slots['article'] = str_replace('"upload/', '"' . SITE_URL . ADMIN_URL . 'upload/', $slots['article']);
-				if(!empty($slots['category'])) {
+								if(!empty($slots['category'])) {
 				$slots['categoryName'] = $this -> getCatName($slots['category'],$pubtype);
 				}
 }
@@ -629,29 +642,36 @@ class sw
 					
 	}	
 	
-
+	public function siteinfo() {
+   if(array_key_exists('siteInfodatas', $GLOBALS)) global $siteInfodatas; 
+	if(!empty($siteInfodatas)) $siteinfo = $this->block($siteInfodatas); else $siteinfo = $this->block('siteinfos');
+	if (!empty($siteinfo['site_url'])) $site_url = $siteinfo['site_url']; else $site_url = '/';
 	
-	
+	define('SITE_URL', $site_url);
+	define('TEMPLATE_URL', $site_url . '/template');
+	define('SITE_URL', $site_url);	
+	$this->site_url = $site_url;
+	return $siteinfo;
+	}
 }	
+
+
 /* on charge la classe et le system SW */
 $sw = new sw();
-$sw_vars = array();
+$siteinfo = $sw -> siteinfo();
+
+$sw_vars = array(
+'site_url' => SITE_URL,	
+'returnmessage'	=> $sw->getmessage()
+);
+
 $page = 'hp';
 
+
+/* on charge les datas de la page en cours */
 if (!empty($_GET['page'])) $page = htmlentities($_GET['page']);
 $blocks = $sw->block($page);
 
-if(!empty($siteInfodatas)) $siteinfo = $sw->block($siteInfodatas); else $siteinfo = $sw->block('siteinfos');
-if (!empty($siteinfo['site_url'])) $site_url = $siteinfo['site_url'];
-else $site_url = '/';
-  
-
-  
-  
-$site_url = $siteinfo['site_url'];
-$sw_vars['site_url'] = $site_url;
-$sw_vars['returnmessage'] = $sw->getmessage();
-define('TEMPLATE_URL', $site_url . '/template');
 /* on charge les plugins */
 $swcnt_pluglist = array();
 

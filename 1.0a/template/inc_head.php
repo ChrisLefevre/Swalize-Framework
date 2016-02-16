@@ -16,10 +16,10 @@
     <title><?php echo $title ?></title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="<?php echo $site_url; ?>template/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL; ?>template/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="<?php echo $site_url; ?>template/css/clean-blog.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL; ?>template/css/clean-blog.css" rel="stylesheet">
   
     
 
@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php  echo $sw_vars['site_url']; ?>"><?php echo $siteinfo['title'] ?></a>
+                <a class="navbar-brand" href="<?php  echo SITE_URL; ?>"><?php echo $siteinfo['title'] ?></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,7 +60,9 @@
 	                     							 foreach($siteinfo['navigation'] as $av) { 
 													 if(substr($av['url'],-4,5)==substr($_SERVER['REQUEST_URI'],-4,4)) echo '<li class="active">';
 													 else echo '<li>';
-													 echo '<a href="'.$site_url.$sw -> lang.'/'.$av['url'].'">'.$av['name'].'</a></li>';
+													 if (false === strpos($av['url'], '://'))
+													 	echo '<a href="'.SITE_URL.$sw -> lang.'/'.$av['url'].'">'.$av['name'].'</a></li>';
+													 else  echo '<a href="'.$av['url'].'">'.$av['name'].'</a></li>';
 													 
 													 }
 													
@@ -71,7 +73,7 @@
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes" aria-expanded="false"><?php echo $sw->lang; ?> <span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="themes">
                 <?php foreach($swcnt_options['languages'] as $l) {
-	                     echo '<li><a href="'.$site_url.$l.'/">'.$l.'</a></li> ';  
+	                     echo '<li><a href="'.SITE_URL.$l.'/">'.$l.'</a></li> ';  
 	                     
 	                     
                      } ?>

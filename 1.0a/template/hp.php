@@ -11,7 +11,7 @@ $posts = $sw ->  blogposts($actpage,$maxitems);
 include 'template/inc_head.php';
 ?>
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('<?php if(!empty($siteinfo['cover'])) echo $site_url . ADMIN_URL.'upload/full/'.$siteinfo['cover'];  else echo TEMPLATE_URL.'/img/home-bg.jpg'; ?>')"">
+    <header class="intro-header" style="background-image: url('<?php if(!empty($siteinfo['cover'])) echo SITE_URL . ADMIN_URL.'upload/full/'.$siteinfo['cover'];  else echo TEMPLATE_URL.'/img/home-bg.jpg'; ?>')"">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -29,7 +29,7 @@ include 'template/inc_head.php';
         <div class="container">
             <div class="row">
                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 body_text">
-<?php echo $siteinfo['hp_text']; ?>
+<?php echo $blocks['hp_text']; ?>
                </div>
             </div>
         </div>
@@ -44,7 +44,7 @@ include 'template/inc_head.php';
 		          
 		               
 		               <div class="post-preview">
-                    <a href="<?php echo $sw_vars['site_url'].$sw->uri('article',$v['urltxt']); ?>">
+                    <a href="<?php echo SITE_URL.$sw->uri('article',$v['urltxt']); ?>">
                         <h2 class="post-title">
                             <?php echo $v['title']; ?>
                         </h2>
@@ -63,14 +63,14 @@ include 'template/inc_head.php';
                 <ul class="pager">
 	                <?php if ($actpage>1) { ?>
 	                <li class="previous">
-                        <a href="<?php echo $site_url.$sw->uri('',$actpage-1); ?>">&larr; <?php echo $sw->_("Next Posts"); ?> </a>
+                        <a href="<?php echo SITE_URL.$sw->uri('',$actpage-1); ?>">&larr; <?php echo $sw->_("Next Posts"); ?> </a>
                     </li>
 	                <?php } ?>
 	                
 	                
 	                <?php if (count($posts) ==  $maxitems) { ?>
                     <li class="next">
-                        <a href="<?php echo $site_url.$sw->uri('',$actpage+1); ?>"><?php echo $sw->_("Older Posts"); ?>  &rarr;</a>
+                        <a href="<?php echo SITE_URL.$sw->uri('',$actpage+1); ?>"><?php echo $sw->_("Older Posts"); ?>  &rarr;</a>
                     </li>
                     <?php } ?>
                 </ul>

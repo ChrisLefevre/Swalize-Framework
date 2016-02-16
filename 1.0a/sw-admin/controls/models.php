@@ -56,7 +56,7 @@ $swcnt_blog = array(
 		) ,
 		'article' => array(
 			'label' => _('Post') ,
-			'type' => 'htmlarea',
+			'type' => 'blogarea',
 			'placeholder' => '',
 		) ,
 		'keyword' => array(
@@ -181,7 +181,7 @@ $swcnt_catalog = array(
 
 		'description' => array(
 			'label' => 'Description' ,
-			'type' => 'htmlarea',
+			'type' => 'blogarea',
 			'placeholder' => '',
 		) ,
 
@@ -304,12 +304,7 @@ $swcnt_tree['siteinfos'] = array(
 				'placeholder' => 'http://mysite.com'
 				
 				),
-				
-			'hp_text' => array(
-			'label' => 'HP Text' ,
-			'type' => 'htmlarea',
-			'placeholder' => '',
-			) ,
+		
 
 				
 				'navigation' => array(
@@ -365,7 +360,21 @@ $swcnt_tree['siteinfos'] = array(
 		);
 	
 	
-	
+$swcnt_tree['hp'] = array(
+		
+			'sw_title' => 'Homepage',
+			'sw_blocks' => array(
+				
+						
+			'hp_text' => array(
+			'label' => 'HP Text' ,
+			'type' => 'blogarea',
+			'placeholder' => '',
+			) ,
+
+				
+			)
+		);
 
 
 

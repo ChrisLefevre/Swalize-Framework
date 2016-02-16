@@ -38,8 +38,8 @@
 | -------------------------------------------------------------------*/
 
 	
-	$config['img_path'] = 'upload/sw-pictures/'; // Relative to domain name
-	$config['upload_path'] = '../../../../../../'. $config['img_path']; // Physical path. [Usually works fine like this]
+	$config['img_path'] = 'upload/full'; // Relative to domain name
+	$config['upload_path'] = '../../../../../../upload/full'; // Physical path. [Usually works fine like this]
 
 
 /*-------------------------------------------------------------------

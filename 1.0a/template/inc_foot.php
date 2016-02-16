@@ -39,10 +39,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="<?php echo $site_url; ?>template/js/jquery.js"></script>
+    <script src="<?php echo SITE_URL; ?>template/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="<?php echo $site_url; ?>template/js/bootstrap.min.js"></script>
+    <script src="<?php echo SITE_URL; ?>template/js/bootstrap.min.js"></script>
 	
 
    

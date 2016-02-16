@@ -4,8 +4,13 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+
+
+
 .body_text img {
 	max-width: 100% !important;
+	height: auto;
 	
 }
 
