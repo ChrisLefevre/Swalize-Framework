@@ -624,7 +624,21 @@ class swcnt_sforms
     private function addformelem($k, $v, $vals)
     {
         echo '<div class="form-group">';
-        if (!empty($v['type']))
+      
+      
+      
+      if (!empty($v['type']) and $v['type'] == 'separation') {
+	         
+	         echo '<hr/><h3>' . $v['label'] . '</h3>';
+
+	       
+	         
+	         }
+        
+
+      
+      
+        if (!empty($v['type']) and $v['type'] != 'separation')
             echo '<label for="' . $k . '">' . $v['label'] . '</label>';
         $vv = '';
         if (!empty($vals[$k])) {
@@ -687,19 +701,19 @@ class swcnt_sforms
             $this->saveTags($k, $vv);
         }
         
+        if(!empty($v['height'])) $styleHeight = 'style="height:'. $v['height'].'px"'; else $styleHeight = '';
+        
         if ($v['type'] == 'input_txt')
             echo '<input type="text" value="' . $vv . '" id="input' . $k . '" name="' . $k . '" class="form-control" placeholder="' . $v['placeholder'] . '" />';
         if ($v['type'] == 'textarea')
-            echo '<textarea id="input' . $k . '" name="' . $k . '" rows="9" class="form-control" rows="10" placeholder="' . $v['placeholder'] . '">' . $vv . '</textarea>';
+            echo '<textarea '.$styleHeight.' id="input' . $k . '" name="' . $k . '" rows="9" class="form-control" rows="10" placeholder="' . $v['placeholder'] . '">' . $vv . '</textarea>';
         if ($v['type'] == 'htmlarea')
-            echo '<textarea id="input' . $k . '" name="' . $k . '" rows="9" class="form-control summernote" rows="20"  placeholder="' . $v['placeholder'] . '">' . $vv . '</textarea>';
+            echo '<textarea '.$styleHeight.' id="input' . $k . '" name="' . $k . '" rows="9" class="form-control summernote" rows="20"  placeholder="' . $v['placeholder'] . '">' . $vv . '</textarea>';
         if ($v['type'] == 'blogarea')
-            echo '<textarea id="input' . $k . '" name="' . $k . '" rows="25" class="form-control tinymce" rows="20"  placeholder="' . $v['placeholder'] . '">' . $vv . '</textarea>';
+            echo '<textarea '.$styleHeight.' id="input' . $k . '" name="' . $k . '" rows="25" class="form-control tinymce" rows="20"  placeholder="' . $v['placeholder'] . '">' . $vv . '</textarea>';
         
         
-        
-        
-        
+                 
         
         if ($v['type'] == 'list') {
             $sub = $v['submenu'];
@@ -1073,7 +1087,7 @@ class swcnt_sblog_cat extends swcnt_sforms
         
         
         
-        
+       
         $swcnt_blogcatform = array(
             'elems' => array(
                 'label' => $swcnt_blog['sw_cat_title'],
@@ -1089,7 +1103,13 @@ class swcnt_sblog_cat extends swcnt_sforms
                         'label' => _('Name'),
                         'type' => 'input_txt',
                         'placeholder' => 'Business,News,Livestyle,...'
+                    ), 
+                    'description' => array(
+                        'label' => _('Description'),
+                        'type' => 'textarea',
+                        'placeholder' => 'Blablabla'
                     )
+
                 )
             )
         );

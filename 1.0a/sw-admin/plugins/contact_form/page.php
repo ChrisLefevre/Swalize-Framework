@@ -23,7 +23,7 @@
 		        
 		        
 		         $smod -> plugin_form('contact_form',$datatree,'');  
-
+		        /* $xdatas =  $smod -> plugin_datas('contact_form','en'); $sw -> plugin_datas('contact_form','contact_form','')   */
 		        
 		        ?>
 	    

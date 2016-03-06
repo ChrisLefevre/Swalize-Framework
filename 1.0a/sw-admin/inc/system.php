@@ -8,6 +8,11 @@ class sw
 
 	function __construct()
 		{
+		
+		
+		$this->timestart=microtime(true);	
+			
+			
 		global $swcnt_plugins;
 		global $swcnt_options;
 		$this->plugins = $swcnt_pluglist;
@@ -54,22 +59,27 @@ class sw
 
 	public
 
-	function setmessage($message)
+	function setmessage($message,$mode='warning')
 		{
+		//0= info, 1 = success, 2= error	
+		$message = '<div class="alert alert-'.$mode.' alert-dismissable">' . $message . '</div>';
 		setcookie("sw_tmp_message", $message, time() + 3600 * 24 * 7 * 30, '/');
+		
+		
 		}
 
 	public
 
 	function getmessage()
 		{
+			
 		if (!empty($_COOKIE["sw_tmp_message"]))
 			{
 			setcookie("sw_tmp_message", '', time() - 3600 * 24 * 7 * 30, '/');
-			return '<div class="alert alert-warning alert-dismissable">' . $_COOKIE["sw_tmp_message"] . '</div>';
-			}
+			return $_COOKIE["sw_tmp_message"];
+			}	
 
-		return '';
+		else return '';
 		}
 
 	public
@@ -450,6 +460,14 @@ class sw
 
 	public
 
+	function _m($t)
+	{
+	return ucFirst($this->_($t));
+	}
+
+
+	public
+
 	function _($t)
 		{
 		$lang = $this->lang;
@@ -514,14 +532,14 @@ class sw
 
 	public
 
-	function blogposts($page = 1, $maxitems = 10, $cat = 0, $tag = '',$pubtype = 'blog')
+	function blogposts($page = 1, $maxitems = 10, $cat = 0, $tag = '',$pubtype = 'blog',$showcase = 0)
 		{
 		$bpost = array();
 		$blogposts = $this->loadDatastore($pubtype.'posts_' . $this->lang);
 		
+		$showonsite = 0;
+		if(!empty($this -> siteid)) $showonsite=$this -> siteid;
 	
-		
-		// krsort($blogposts);
 
 		$itemstart = ($page - 1) * $maxitems;
 		$itemend = ($page) * $maxitems;
@@ -549,19 +567,30 @@ class sw
 					
 					}
 					
-				if (($tpost['status'] == 1 and empty($cat) and $tag == '') or ($tpost['status'] == 1 and $cat == $tpost['category']) or ($tpost['status'] == 1 and $tagpost == 1))
+				if ((($tpost['status'] == 1 or $tpost['status'] == 3 ) and empty($cat) and $tag == '') 
+				or (($tpost['status'] == 1 or $tpost['status'] == 3 )  and $cat == $tpost['category']) 
+				or (($tpost['status'] == 1 or $tpost['status'] == 3 )  and $tagpost == 1))
 					{
-						
-						
-						
-					if ($n >= $itemstart and $n < $itemend)
+					
+						if($showonsite == 0 or (!empty($tpost['showonsite']) and in_array($showonsite, $tpost['showonsite']) ) ) {
+								
+					
+					if ($n >= $itemstart and $n < $itemend and (($showcase == 1 and $tpost['status'] == 3) or ($showcase == 0)) )
 						{
+							
+						
+							
+								
 						$bpost[$v['postid']] = $tpost;
 						$bpost[$v['postid']]['lang'] = $v['lang'];
 						$bpost[$v['postid']]['urltxt'] = $v['urltxt'];
+						
+							}
+						
+						$n++;
 						}
 
-					$n++;
+					
 					}
 				}
 			}
@@ -615,7 +644,40 @@ class sw
 		}
 		
 		
+public function hide_email($email)
+
+{ $character_set = '+-.0123456789@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz';
+
+  $key = str_shuffle($character_set); $cipher_text = ''; $id = 'e'.rand(1,999999999);
+
+  for ($i=0;$i<strlen($email);$i+=1) $cipher_text.= $key[strpos($character_set,$email[$i])];
+
+  $script = 'var a="'.$key.'";var b=a.split("").sort().join("");var c="'.$cipher_text.'";var d="";';
+
+  $script.= 'for(var e=0;e<c.length;e++)d+=b.charAt(a.indexOf(c.charAt(e)));';
+
+  $script.= 'document.getElementById("'.$id.'").innerHTML="<a href=\\"mailto:"+d+"\\">"+d+"</a>"';
+
+  $script = "eval(\"".str_replace(array("\\",'"'),array("\\\\",'\"'), $script)."\")"; 
+
+  $script = '<script type="text/javascript">/*<![CDATA[*/'.$script.'/*]]>*/</script>';
+
+  return '<span id="'.$id.'">[protected]</span>'.$script;
+
+}
+ 	
+		
+		
 	public function listCats($pubtype = 'blog') {
+			
+			return $this -> listCatsInfos($pubtype,'name');
+			
+					
+	}	
+
+	public function listCatsInfos($pubtype = 'blog',$select='all') {
+			
+			
 			
 			$listCats = array();
 		
@@ -630,17 +692,18 @@ class sw
 					{
 					
 					
-					$listCats[$v['slug']] = $v['name'];
-					
+					if($select=='all') $listCats[$v['slug']] = $v;
+					else  $listCats[$v['slug']] = $v[$select];
 					
 					}
 			}
 			
-					}	
+		}	
 			return $listCats;
 			
 					
 	}	
+
 	
 	public function siteinfo() {
    if(array_key_exists('siteInfodatas', $GLOBALS)) global $siteInfodatas; 
@@ -653,7 +716,23 @@ class sw
 	$this->site_url = $site_url;
 	return $siteinfo;
 	}
+	
+	
+	public function cmsInfos() {
+		
+		
+		$timeend=microtime(true);
+		$time=$timeend-$this->timestart;
+		$page_load_time = number_format($time, 3);
+		echo '
+		<!-- 
+		Page loaded in '.$page_load_time.' seconds 
+		-->';
+	}
+	
+	
 }	
+
 
 
 /* on charge la classe et le system SW */
