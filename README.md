@@ -1,4 +1,4 @@
-# [Swalize CMS](http://swalize.com/) 1.0a
+# [Swalize CMS](http://swalize.com/) 1.1
 
 Développez en PHP5, ce CMS est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce CMS dispose de son propre moteur de DB orienté Document JSON. 
 
