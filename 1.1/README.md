@@ -2,7 +2,7 @@
 
 ### Mise à jour 
 
-1. Ajout du block de type separation pour models.php
+## Ajout du block de type separation pour models.php
 ```php
 'sp_seo' => array(
 'label' => ’Titre de cet espace’,
@@ -10,7 +10,7 @@
 ),
 ```
 
-2. Ajout d’une valeur height pour les textarea de models.php
+## Ajout d’une valeur height pour les textarea de models.php
 ```php
 'sub_baseline' => array(
 'label' => ‘Mon texte’,
@@ -20,14 +20,13 @@
 ),
 ```
 
-3. Ajout des fonctions :
+## Ajout des fonctions :
 ```php
 $sw->cmsInfos();  // pour afficher le temps de génération de la page en commentaire
 
 $sw->hide_email($email);  // pour cacher une adresse email des moteurs de recherches.
 ```
 
-4. Pour le plugin de contact form :  exemple d'un formulaire écrit
-directement en HTML.
+## Pour le plugin de contact form :  exemple d'un formulaire écrit directement en HTML.
 
-5. Corrections divers
+## Corrections divers
