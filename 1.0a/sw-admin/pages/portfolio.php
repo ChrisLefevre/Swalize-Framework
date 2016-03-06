@@ -88,9 +88,7 @@
 	                    
 	                    if($v['status']!=2) {
 	               
-	                    if($v['status']==1) $stat = _('visible'); 
-	                    else if($v['status']==3) $stat = _('showcase'); 
-	                    else $stat = _('closed'); 
+	                    if($v['status']==1) $stat = _('visible'); else $stat = _('closed'); 
 	                    
 	                     ?>
 	                    

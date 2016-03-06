@@ -40,7 +40,7 @@ if(!empty($_POST)) {
 	            	<?php 
 		            	foreach($swcnt_options['languages'] as $k) {
 		            if ($smod -> lang==$k)	echo ' <a href="?translate=home&lang='.$k.'" class="btn  btn-primary btn-sm">'.strtoupper($k).'</a>';
-		            	else echo ' <a href="?translate=home&lang='.$k.'"  class="btn btn-sm">'.strtoupper($k).'</a>';
+		            	else echo ' <a href="?editor=?translate=home&lang='.$k.'"  class="btn btn-sm">'.strtoupper($k).'</a>';
 	            	}
 	            
 	            
@@ -91,16 +91,17 @@ echo '	            <form action="" id="formedtextt" method="post">  <div class="
 				}
 
 					foreach($vals as $key => $val) {
-
 						$resp = '';
 						if(!empty($lvals[$key])) $resp= $lvals[$key]; 	
-				
+						
+						
+						
 						      echo '
             <div class="form-group">
 			<div class="row">
 			    <div class="col-md-6">
 			
-			<label>'.$val.'</label></div> <div class="col-md-6"><input type="text" value="'.htmlspecialchars($resp).'"  name="'.addslashes($key).'" class="form-control" placeholder="'.addslashes($val).'"></div></div> </div>
+			<label>'.$val.'</label></div> <div class="col-md-6"><input type="text" value="'.addslashes($resp).'"  name="'.addslashes($key).'" class="form-control" placeholder="'.addslashes($val).'"></div></div> </div>
 			';
 						
 						
