@@ -1,10 +1,58 @@
-# [Swalize Framework](http://swalize.com/) 1.1
+# [Swalize Framework](http://swalize.com/) 1.2
 
-Développez en PHP5, ce CMS est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce CMS dispose de son propre moteur de DB orienté Document JSON. 
+
+
+## Mise à jour  1.2a
+
+### Réorganisation des dossiers DB et images
+
+* Déplacement du fichier models.php à la racine 
+* Déplacement des images dans /files/
+* Déplacement de la DB dans /sw-db/
+
+* Ajout du type "pages" dans les fonctions de blogging.  
+
+
+## Mise à jour  1.1
+
+### Ajout du block de type separation pour models.php
+```php
+'sp_seo' => array(
+'label' => ’Titre de cet espace’,
+'type' => 'separation'
+),
+```
+
+### Ajout d’une valeur height pour les textarea de models.php
+```php
+'sub_baseline' => array(
+'label' => ‘Mon texte’,
+'type' => 'textarea',
+'placeholder' => 'Un site cool pour tout le monde',
+'height'=> 60
+),
+```
+
+### Ajout des fonctions :
+```php
+$sw->cmsInfos();  // pour afficher le temps de génération de la page en commentaire
+
+$sw->hide_email($email);  // pour cacher une adresse email des moteurs de recherches.
+```
+
+### Pour le plugin de contact form :  exemple d'un formulaire écrit directement en HTML.
+
+### Corrections divers
+
+
+
+## A Propos
+
+Développez en PHP5, ce Framework est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce Framework dispose de son propre moteur de DB orienté Document JSON. 
 
 Il permet également de créer une administration évolutive.
 
-Swalize Framework est également un CMS avec des fonctionnalités classiques mais il fonctionne de façon peu conventionnelle. Son admin se customise avec un tableau. Vous pouver créer votre site et ensuite vous définir des zones éditables.
+Swalize Framework est également un Framework avec des fonctionnalités classiques mais il fonctionne de façon peu conventionnelle. Son admin se customise avec un tableau. Vous pouver créer votre site et ensuite vous définir des zones éditables.
 
 Il est totalement indiqué pour des sites responsive Bootstrap, et se montre beaucoup plus efficace que Wordpress pour les sites onepage multilingues. 
 
@@ -48,7 +96,7 @@ Pensez à modifier « Site URL » dans l'éditeur.
 
 ## Le fichier models.php : Les options
 
-Ce document est le couteau suisse du CMS. C'est dans ce document que vous pourrez structurer l'admin du site.
+Ce document est le couteau suisse du Framework. C'est dans ce document que vous pourrez structurer l'admin du site.
 
 ### Options ($swcnt_options)
 
@@ -272,7 +320,7 @@ $swcnt_form['contactform'] = array(
 
 ## Développer son thème, les premiers pas avec $sw
 
-Pour connecter Swalize CMS à un site, il suffit de l'inclure dans vos pages ou templates de cette façon.
+Pour connecter Swalize Framework à un site, il suffit de l'inclure dans vos pages ou templates de cette façon.
 
 
 ```php
@@ -363,4 +411,4 @@ foreach ($sw -> blogposts(1, 100, 0,'','blog') as $k => $v)
 ### Createur
 
 Christophe Lefevre. 
-Belge. Rédacteur de [Techtrends](http://techtrends.eu/) 
+Belge. [LostIn1950](http://lostin1950.com/) 
