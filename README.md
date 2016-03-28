@@ -397,10 +397,10 @@ include ADMIN_URL.'inc/system.php';
 /* Afficher les 100 derniers articles */
 foreach ($sw -> blogposts(1, 100, 0,'','blog') as $k => $v)
     {
-    echo '<img src="'.$sw_vars['site_url'] . ADMIN_URL.'upload/show/380/'.$v['illustration'].'" />';
+    echo '<img src="'.SITE_URL. 'files/show/380/'.$v['illustration'].'" />';
     echo '<h5>'.$v['title'].'</h5>
           <h6>'.$v['headline'].'</h6>
-          <a href="'.$sw_vars['site_url'].$sw->uri('article',$v['urltxt']).'">Lire la suite</a>';
+          <a href="'.SITE_URL.$sw->uri('article',$v['urltxt']).'">Lire la suite</a>';
     } 
 ?>
 ```
