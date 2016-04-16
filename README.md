@@ -1,4 +1,14 @@
-# [Swalize Framework](http://swalize.com/) 1.2
+# [Swalize Framework](http://swalize.com/) 2.0
+
+
+
+![Swalize 2.0](preview.jpg)
+
+
+## Mise à jour  2.0a
+
+* Nouveau design plus moderne.
+* Remplacement de la gestion de langues de l’admin.
 
 
 
