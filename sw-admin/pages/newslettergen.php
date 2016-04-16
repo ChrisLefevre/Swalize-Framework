@@ -7,14 +7,14 @@
 ?>
 
 <section class="content-header">
-    <h1><?php echo _("Newsletter"); ?> <small><?php echo _("Créer un template"); ?> </small></h1>
+    <h1><?php echo _tr("Newsletter"); ?> <small><?php echo _tr("New template"); ?> </small></h1>
 
     <ol class="breadcrumb">
         <li>
-            <a href="./"><?php echo _("Admin"); ?> </a>
+            <a href="./"><?php echo _tr("Admin"); ?> </a>
         </li>
 
-        <li class="active"><?php echo _("Newsletter"); ?> </li>
+        <li class="active"><?php echo _tr("Newsletter"); ?> </li>
     </ol>
 </section>
 

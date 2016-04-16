@@ -6,7 +6,7 @@
 	
 	include '../models.php';
 	include 'inc/funcs.php';
-	
+	include 'inc/lang.php';
 
 	
 	$smod = new swcnt_smod();
@@ -47,6 +47,27 @@ else
 		include 'inc/header.php';
 		if(!empty($smod->mod)) include('pages/'.$smod->mod.'.php');
 		
+		else {
+			?><div class="hp_div">
+				
+				<section class="content">
+          <div class="callout callout-info"  style="
+    position: fixed;
+">
+	           <div class="pull-left image">
+	          <i class="material-icons" style="margin-right: 15px; font-size: 50px;">&#xE5C4;</i>
+	           </div>
+            <h4><?php _t('Hello'); ?> <?php echo ucFirst($ul['user']["username"]); ?>,</h4>
+       <p><?php _t('Click in the left menu to start.'); ?></p>
+          </div>
+         
+
+        </section>
+			</div>
+			
+			
+			<?php
+			}
 		
 		
 	 

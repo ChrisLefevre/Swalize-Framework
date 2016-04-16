@@ -6,14 +6,14 @@
 			$sblog -> save();
 	?>
 <section class="content-header">
-    <h1>Blog <?php echo $sblog -> lang; ?><small><?php echo _("Add a new post"); ?></small></h1>
+    <h1>Blog <?php echo $sblog -> lang; ?><small><?php echo _tr("Add a new post"); ?></small></h1>
 
     <ol class="breadcrumb">
         <li>
-            <a href="./"><?php echo _("Edition"); ?> </a>
+            <a href="./"><?php echo _tr("Edition"); ?> </a>
         </li>
 
-        <li class="active"><?php echo _("Posts"); ?> </li>
+        <li class="active"><?php echo _tr("Posts"); ?> </li>
     </ol>
 </section>
 
@@ -60,8 +60,8 @@
    
     
     
-    <div class="pull-right"><a href="?blog=new&amp;lang=<?php echo $sblog -> lang; ?>" title="Add" class="btn  btn-sm bg-aqua color-palette"><i class="fa fa-plus"></i> <?php echo _("Add a new post"); ?> </a></div>
-     <h1>News <small><?php echo _("Posts list"); ?>  <?php echo $sblog -> lang; ?></small></h1>
+    <div class="pull-right"><a href="?blog=new&amp;lang=<?php echo $sblog -> lang; ?>" title="Add" class="btn  btn-sm bg-aqua color-palette"><i class="fa fa-plus"></i> <?php echo _tr("Add a new post"); ?> </a></div>
+     <h1><?php echo _tr("News"); ?> <small><?php echo _tr("Posts list"); ?>  <?php echo $sblog -> lang; ?></small></h1>
 
     
 </section><!-- Main content -->
@@ -76,8 +76,8 @@
                   <table class="table table-hover">
                     <tr>
                      
-                      <th><?php echo _("Date"); ?> </th>
-                      <th><?php echo _("Post"); ?> </th>
+                      <th><?php echo _tr("Date"); ?> </th>
+                      <th><?php echo _tr("Post"); ?> </th>
                       <th></th>
               
                     </tr>
@@ -86,9 +86,9 @@
 	                    
 	                    if($v['status']!=2) {
 	               
-	                    if($v['status']==1) $stat = _('visible'); 
-	                    else if($v['status']==3) $stat = _('showcase'); 
-	                    else $stat = _('closed'); 
+	                    if($v['status']==1) $stat = _tr('visible'); 
+	                    else if($v['status']==3) $stat = _tr('showcase'); 
+	                    else $stat = _tr('closed'); 
 	                    
 	                     ?>
 	                    

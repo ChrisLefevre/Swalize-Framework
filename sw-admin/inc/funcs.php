@@ -117,18 +117,7 @@ class swcnt_sadmin
         
         $directory = 'lang/';
         $langlist  = $this->langlist;
-        if (!empty($langlist[$lang])) {
-            $iso      = $langlist[$lang]['iso'];
-            $filename = 'default';
-            putenv("LC_ALL=" . $iso);
-            setlocale(LC_ALL, $iso);
-            bindtextdomain($filename, $directory);
-            bind_textdomain_codeset($filename, "UTF-8");
-            textdomain($filename);
-            setcookie('language', $lang, time() + 3600 * 24 * 7 * 30);
-            $this->lang = $lang;
-        }
-    }
+            }
     
     public function saveData($d = 'temp', $k, $v)
     {
@@ -373,7 +362,7 @@ class swcnt_sadmin
             if (!empty($_POST['delete_user'])) {
                 $parms = array();
                 $this->setConfig('users', $email, $parms);
-                $this->setShowmessage(_('Profil Saved'), 'attention');
+                $this->setShowmessage(_tr('Profil Saved'), 'attention');
             }
             
             $baseconf = $this->getConfigItem('users', $email);
@@ -405,7 +394,7 @@ class swcnt_sadmin
                     'role' => $role
                 );
                 $this->setConfig('users', $email, $parms);
-                $this->setShowmessage(_('Profil Saved'), 'ok');
+                $this->setShowmessage(_tr('Profil Saved'), 'ok');
             }
         }
     }
@@ -455,7 +444,7 @@ class swcnt_tables
                 }
                 
                 if ($editable == 1)
-                    echo '<td><form action="" method="post"><button name="delete_this_form_obj" type="submit" class="btn btn-xs bg-red color-palette" value="' . $k . '"><i class="fa fa-eraser"></i> ' . _('delete') . '</button></form></td>';
+                    echo '<td><form action="" method="post"><button name="delete_this_form_obj" type="submit" class="btn btn-xs bg-red color-palette" value="' . $k . '"><i class="fa fa-eraser"></i> ' . _tr('delete') . '</button></form></td>';
                 echo '</tr>';
             }
             
@@ -714,6 +703,17 @@ class swcnt_sforms
         
         if ($v['type'] == 'input_txt')
             echo '<input type="text" value="' . $vv . '" id="input' . $k . '" name="' . $k . '" class="form-control" placeholder="' . $v['placeholder'] . '" />';
+       
+
+        if ($v['type'] == 'link')
+            echo ' <div class="input-group" style="width: 100%;"><input type="text" style="width: 30%; float: left;" value="' . $vv['text']. '" id="input' . $k . '_txt" name="' . $k . '[text]" class="form-control" placeholder="' . $v['placeholder'] . '" />
+                  <input type="text" style="width: 30%; float: left; margin-right: 1%;" value="' . $vv['link'].'" id="input' . $k . '_lnk" name="' . $k . '[link]" class="form-control" placeholder="http://" /></div>		
+            ';
+            
+           
+            
+            
+            
         if ($v['type'] == 'textarea')
             echo '<textarea '.$styleHeight.' id="input' . $k . '" name="' . $k . '" rows="9" class="form-control" rows="10" placeholder="' . $v['placeholder'] . '">' . $vv . '</textarea>';
         if ($v['type'] == 'htmlarea')
@@ -722,6 +722,9 @@ class swcnt_sforms
             echo '<textarea '.$styleHeight.' id="input' . $k . '" name="' . $k . '" rows="25" class="form-control tinymce" rows="20"  placeholder="' . $v['placeholder'] . '">' . $vv . '</textarea>';
         
         
+                 
+                 
+                 
                  
         
         if ($v['type'] == 'list') {
@@ -1105,17 +1108,17 @@ class swcnt_sblog_cat extends swcnt_sforms
                 'placeholder' => '',
                 'submenu' => array(
                     'slug' => array(
-                        'label' => _('Slug name'),
+                        'label' => _tr('Slug name'),
                         'type' => 'input_txt',
                         'placeholder' => 'business,news,livestyle,...'
                     ),
                     'name' => array(
-                        'label' => _('Name'),
+                        'label' => _tr('Name'),
                         'type' => 'input_txt',
                         'placeholder' => 'Business,News,Livestyle,...'
                     ), 
                     'description' => array(
-                        'label' => _('Description'),
+                        'label' => _tr('Description'),
                         'type' => 'textarea',
                         'placeholder' => 'Blablabla'
                     )

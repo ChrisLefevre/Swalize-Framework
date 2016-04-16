@@ -27,7 +27,7 @@ $users = $adm ->  getConfig('users');
             <div class="modal-header text-center">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 
-                <h4 class="modal-title"><?php echo _("Add Member"); ?> </h4>
+                <h4 class="modal-title"><?php echo _tr("Add Member"); ?> </h4>
             </div>
 
             <div class="modal-body">
@@ -43,11 +43,11 @@ $users = $adm ->  getConfig('users');
                     <div class="form-group">
                         <select  name="role" class="form-control">
                             <option value="1">
-                                <?php echo _("Editor"); ?> 
+                                <?php echo _tr("Editor"); ?> 
                             </option>
 
                             <option value="2">
-                                <?php echo _("Admin"); ?> 
+                                <?php echo _tr("Admin"); ?> 
                             </option>
                         </select>
                     </div>
@@ -62,12 +62,12 @@ $users = $adm ->  getConfig('users');
                 </div>
 
                 <div class="checkbox">
-                    <label><input type="checkbox" onchange="document.getElementById('password').type = this.checked ? 'text' : 'password'; document.getElementById('password2').type = this.checked ? 'text' : 'password'"> <?php echo _("Show password"); ?> </label>
+                    <label><input type="checkbox" onchange="document.getElementById('password').type = this.checked ? 'text' : 'password'; document.getElementById('password2').type = this.checked ? 'text' : 'password'"> <?php echo _tr("Show password"); ?> </label>
                 </div>
             </div>
 
             <div class="modal-footer">
-                <button type="submit" name="add"  value="1"  class="btn btn-outline"><?php echo _("Add"); ?> </button>
+                <button type="submit" name="add"  value="1"  class="btn btn-outline"><?php echo _tr("Add"); ?> </button>
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@ $users = $adm ->  getConfig('users');
             <div class="modal-header text-center">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 
-                <h4 class="modal-title"><?php echo _("Modify Member"); ?> </h4>
+                <h4 class="modal-title"><?php echo _tr("Modify Member"); ?> </h4>
             </div>
 
             <div class="modal-body">
@@ -104,11 +104,11 @@ $users = $adm ->  getConfig('users');
                     <div class="form-group">
                         <select id="form_role" name="role" class="form-control">
                             <option value="1">
-                                <?php echo _("Editor"); ?> 
+                                <?php echo _tr("Editor"); ?> 
                             </option>
 
                             <option value="2">
-                                <?php echo _("Admin"); ?> 
+                                <?php echo _tr("Admin"); ?> 
                             </option>
                         </select>
                     </div>
@@ -120,7 +120,7 @@ $users = $adm ->  getConfig('users');
             </div>
 
             <div class="modal-footer">
-                <button type="submit" name="edit" value="1" class="btn btn-outline"><?php echo _("Save"); ?> </button>
+                <button type="submit" name="edit" value="1" class="btn btn-outline"><?php echo _tr("Save"); ?> </button>
             </div>
         </div>
     </div>
@@ -145,7 +145,7 @@ $users = $adm ->  getConfig('users');
 
            
            
-                <button type="submit" name="delete_user" value="1" class="btn btn-outline"><?php echo _("Click here if you are sure you want to delete"); ?>  <strong id="form_username2"></strong> ?</button>
+                <button type="submit" name="delete_user" value="1" class="btn btn-outline"><?php echo _tr("Click here if you are sure you want to delete"); ?>  <strong id="form_username2"></strong> ?</button>
             </div>
         </div>
     </div>
@@ -168,7 +168,7 @@ $users = $adm ->  getConfig('users');
             <div class="modal-header text-center">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 
-                <h4 class="modal-title"><?php echo _("Change password"); ?> </h4>
+                <h4 class="modal-title"><?php echo _tr("Change password"); ?> </h4>
             </div>
 
             <div class="modal-body">
@@ -176,26 +176,26 @@ $users = $adm ->  getConfig('users');
                    
 
                     <div class="form-group has-feedback">
-                        <input type="hidden"  id="form_email2"  name="email" class="form-control" placeholder="<?php echo _("E-mail"); ?> ">
+                        <input type="hidden"  id="form_email2"  name="email" class="form-control" placeholder="<?php echo _tr("E-mail"); ?> ">
                     </div>
 
                    
                     <div class="form-group has-feedback">
-                        <input name="password" type="password" id="password_change" class="form-control" placeholder="<?php echo _("Password"); ?> ">
+                        <input name="password" type="password" id="password_change" class="form-control" placeholder="<?php echo _tr("Password"); ?> ">
                     </div>
 
                     <div class="form-group has-feedback">
-                        <input name="password2" id="password2_change" onkeyup="if($(this).val()!=$('#password_change').val()) $(this).parent().addClass('has-error'); else  $(this).parent().removeClass('has-error');" type="password" class="form-control" placeholder="<?php echo _("Retype password"); ?> ">
+                        <input name="password2" id="password2_change" onkeyup="if($(this).val()!=$('#password_change').val()) $(this).parent().addClass('has-error'); else  $(this).parent().removeClass('has-error');" type="password" class="form-control" placeholder="<?php echo _tr("Retype password"); ?> ">
                     </div>
                 </div>
 
                 <div class="checkbox">
-                    <label><input type="checkbox" onchange="document.getElementById('password_change').type = this.checked ? 'text' : 'password'; document.getElementById('password2_change').type = this.checked ? 'text' : 'password'"> <?php echo _("Show password"); ?> </label>
+                    <label><input type="checkbox" onchange="document.getElementById('password_change').type = this.checked ? 'text' : 'password'; document.getElementById('password2_change').type = this.checked ? 'text' : 'password'"> <?php echo _tr("Show password"); ?> </label>
                 </div>
             </div>
 
             <div class="modal-footer">
-                <button type="submit" name="passedit"  value="1"  class="btn btn-outline"><?php echo _("Edit"); ?> </button>
+                <button type="submit" name="passedit"  value="1"  class="btn btn-outline"><?php echo _tr("Edit"); ?> </button>
             </div>
         </div>
     </div>
@@ -239,8 +239,8 @@ $users = $adm ->  getConfig('users');
    
     
     
-    <div class="pull-right"><a href="#modal-user-settings" data-toggle="modal"  class="btn  btn-sm bg-aqua color-palette" data-widget="remove" data-toggle="tooltip" title="Add"><i class="fa fa-plus"></i> <?php echo _("New user"); ?> </a></div>
-     <h1><?php echo _("Users"); ?> <small><?php echo _("Users list"); ?> </small></h1>
+    <div class="pull-right"><a href="#modal-user-settings" data-toggle="modal"  class="btn  btn-sm bg-aqua color-palette" data-widget="remove" data-toggle="tooltip" title="Add"><i class="fa fa-plus"></i> <?php echo _tr("New user"); ?> </a></div>
+     <h1><?php echo _tr("Users"); ?> <small><?php echo _tr("Users list"); ?> </small></h1>
 
     
 </section><!-- Main content -->
@@ -255,9 +255,9 @@ $users = $adm ->  getConfig('users');
                   <table class="table table-hover">
                     <tr>
                      
-                      <th><?php echo _("User"); ?> </th>
-                      <th><?php echo _("E-mail"); ?> </th>
-                      <th><?php echo _("Status"); ?> </th>
+                      <th><?php echo _tr("User"); ?> </th>
+                      <th><?php echo _tr("E-mail"); ?> </th>
+                      <th><?php echo _tr("Status"); ?> </th>
                  <th></th>
                     </tr>
                     
@@ -268,16 +268,16 @@ $users = $adm ->  getConfig('users');
                      
                       <td><?php echo ucwords($v['username']); ?></td>
                       <td><?php echo $k; ?></td>
-                      <td><?php if ($v['role']==2) echo '<span class="label label-success">'._('Admin').'</span>'; 
-	                      			else echo '<span class="label label-warning">'._('Editeur').'</span>'; ?></td>
+                      <td><?php if ($v['role']==2) echo '<span class="label label-success">'._tr('Admin').'</span>'; 
+	                      			else echo '<span class="label label-warning">'._tr('Editeur').'</span>'; ?></td>
                     <td>
 	               
 	               <div class="btn-group">
-                         <a  class="btn btn-default btn-xs" href="#modal-user-settings-edit" onclick="openEditUser('<?php echo addslashes($v['username']); ?>','<?php echo addslashes($k); ?>','<?php echo addslashes($v['role']); ?>');" data-toggle="modal"  ><i class="fa  fa-pencil"></i> <?php echo _("Profil"); ?> </a>
+                         <a  class="btn btn-default btn-xs" href="#modal-user-settings-edit" onclick="openEditUser('<?php echo addslashes($v['username']); ?>','<?php echo addslashes($k); ?>','<?php echo addslashes($v['role']); ?>');" data-toggle="modal"  ><i class="fa  fa-pencil"></i> <?php echo _tr("Profil"); ?> </a>
 	                      
-	                           <a  class="btn btn-default btn-xs" href="#modal-user-settings-pass" onclick="openEditUser('<?php echo addslashes($v['username']); ?>','<?php echo addslashes($k); ?>','<?php echo addslashes($v['role']); ?>');" data-toggle="modal"  ><i class="fa  fa-lock"></i> <?php echo _("Pass"); ?> </a> 
+	                           <a  class="btn btn-default btn-xs" href="#modal-user-settings-pass" onclick="openEditUser('<?php echo addslashes($v['username']); ?>','<?php echo addslashes($k); ?>','<?php echo addslashes($v['role']); ?>');" data-toggle="modal"  ><i class="fa  fa-lock"></i> <?php echo _tr("Pass"); ?> </a> 
 	                           
-	                            <a  class="btn btn-default btn-xs" href="#modal-user-settings-delete" onclick="openEditUser('<?php echo addslashes($v['username']); ?>','<?php echo addslashes($k); ?>','<?php echo addslashes($v['role']); ?>');" data-toggle="modal"  ><i class="fa  fa-eraser"></i> <?php echo _("Delete"); ?> </a> 
+	                            <a  class="btn btn-default btn-xs" href="#modal-user-settings-delete" onclick="openEditUser('<?php echo addslashes($v['username']); ?>','<?php echo addslashes($k); ?>','<?php echo addslashes($v['role']); ?>');" data-toggle="modal"  ><i class="fa  fa-eraser"></i> <?php echo _tr("Delete"); ?> </a> 
 
 	                           
 	                    </div>

@@ -18,7 +18,7 @@ $addimage = '';
 
 if (!empty($_POST)) $etape = 3;
 
-$errormessage = _('Wrong format');
+$errormessage = _tr('Wrong format');
 
 
 
@@ -27,7 +27,7 @@ if (isset($_FILES["file"])) {
 
 if ($_FILES["file"]["size"] > 10000000) {
 	
-$errormessage = _('Image too Big');	
+$errormessage = _tr('Image too Big');	
 	
 }	
 
@@ -53,7 +53,7 @@ if ((($_FILES["file"]["type"] == "image/gif")
     {
     echo "Return Code: " . $_FILES["file"]["error"] . "<br>";
     
-    $errormessage = _('Bad picture').' '.$_FILES["file"]["error"];
+    $errormessage = _tr('Bad picture').' '.$_FILES["file"]["error"];
     
     }
   else
@@ -62,7 +62,7 @@ if ((($_FILES["file"]["type"] == "image/gif")
       {
       echo $_FILES["file"]["name"] . " already exists. ";
        
-       $errormessage = $_FILES["file"]["name"] . ' '. _('already exists');
+       $errormessage = $_FILES["file"]["name"] . ' '. _tr('already exists');
       
       }
     else
@@ -170,7 +170,7 @@ else
 body{margin:0}
 #rightzone{width:150px;height:500px;position:absolute;z-index:100;right:0;top:0}
 #zonerecad{height:500px;width:650px;overflow:auto}
-.btn{display:inline-block;font-weight:400;text-align:center;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#fff;background-color:#428bca;border-color:#357ebd;position:relative;overflow:hidden;margin:0}
+.btn{display:inline-block;font-weight:400;text-align:center;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#fff;background-color: #32B7E1; border-color: #59BCF9;position:relative;overflow:hidden;margin:0}
 .fileUpload input.upload{position:absolute;top:0;right:0;margin:0;padding:0;font-size:20px;cursor:pointer;opacity:0;filter:alpha(opacity=0)}
 .spinner{width:50px;height:30px;text-align:center;font-size:10px;margin-left:auto;margin-right:auto}
 .spinner > div{background-color:#428bca;height:100%;width:6px;display:inline-block;-webkit-animation:stretchdelay 1.2s infinite ease-in-out;animation:stretchdelay 1.2s infinite ease-in-out}
@@ -208,7 +208,7 @@ $(document).ready(function () {
 <form style="margin:0px;" action="" method="post" enctype="multipart/form-data">
 <input type="hidden" name="MAX_FILE_SIZE" value="10000000">
 <div class="fileUpload btn btn-primary">
-    <span><?php echo _('Add Picture'); ?></span>
+    <span><?php echo _tr('Add Picture'); ?></span>
        <input onchange=" parent.document.getElementById('picturelement-<?php echo $idp; ?>').src='assets/dist/img/loading.gif';  form.submit()" id="buttonupload" class="upload" name="file" type="file">
 </div>
 <div id="tapp2" style="display:none">
@@ -222,7 +222,7 @@ $(document).ready(function () {
 </div>
 
 
-					<input id="btupl2" style="display:none" class="btn-primary" type="button" value="<?php echo _("Uploading"); ?> ">
+					<input id="btupl2" style="display:none" class="btn-primary" type="button" value="<?php echo _tr("Uploading"); ?> ">
 				</form>
 	
                

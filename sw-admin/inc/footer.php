@@ -19,7 +19,7 @@
             <div class="form-group"> 
              <textarea id="form_temp_text" name="form_temp_text"  rows="9" class="form-control" placeholder=""></textarea> </div>
             
-                 <button type="button" onclick="GetTempFormModal()" name="delete_user" value="1" class="btn btn-outline"><?php echo _("Save"); ?></button>
+                 <button type="button" onclick="GetTempFormModal()" name="delete_user" value="1" class="btn btn-outline"><?php echo _tr("Save"); ?></button>
              </div>
          </div>
      </div>
