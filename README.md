@@ -8,7 +8,7 @@
 
 ## A Propos
 
-Développeé en PHP5, ce Framework est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce Framework dispose de son propre moteur de DB orienté Document JSON. 
+Développé en PHP5, ce Framework est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce Framework dispose de son propre moteur de DB orienté Document JSON. 
 
 Il permet également de créer une administration évolutive.
 
