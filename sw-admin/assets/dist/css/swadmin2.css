@@ -4780,6 +4780,7 @@ color: rgba(47, 111, 148, 0.81);
 .sidebar-menu > li:hover > a, .sidebar-menu > li.active > a {
     color: #ffffff;
     background: rgba(245, 245, 245, 0.25);
+    background: none;
     border-left-color: #fff;
 }
 
