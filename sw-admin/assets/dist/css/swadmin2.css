@@ -1,18 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
 /*@import url(https://fonts.googleapis.com/icon?family=Material+Icons);*/
 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-       local('MaterialIcons-Regular'),
-       url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
-       url(../fonts/MaterialIcons-Regular.woff) format('woff'),
-       url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
-}
-
 
 .fixewidth_container {
 	
@@ -32,35 +20,7 @@ overflow-x: auto;
 	
 }
 
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-    font-size: inherit;
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: 'liga';
-  line-height: 0.9;
-  vertical-align: middle;
-    font-size: 22px;
-  margin-right: 4px;
-
-  
-}
 
 .dtable tr td.movable{
 	  cursor: move;
@@ -4699,6 +4659,9 @@ color: rgba(47, 111, 148, 0.81);
 .picturpreview {
 	float: left;
 	margin-right: 10px;
+	background-color: #39B6E3;
+    border: solid 1px #62D1F6;
+
 	
 }
 .picturbtn {
@@ -4793,6 +4756,21 @@ color: rgba(47, 111, 148, 0.81);
     padding-bottom: 10px;
 }
 
+
+.sidebar-menu .material-icons {
+
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 4px;
+  line-height: 0.95 !important;
+  
+
+  
+}
+
+
 .treeview-menu > li > a {
        color: #167AA7;
     margin:1px;
@@ -4872,6 +4850,10 @@ color: rgba(47, 111, 148, 0.81);
 	
 	
 }
+
+
+
+
 
 @media (max-width: 768px) {
 	    .box-footer {
