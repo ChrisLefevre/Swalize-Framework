@@ -1,64 +1,14 @@
-# [Swalize Framework](http://swalize.com/) 2.0
+# [Swalize Framework](http://swalize.com/) 1.3
+
 
 
 
 ![Swalize 2.0](preview.jpg)
 
 
-## Mise à jour  2.0a
-
-* Nouveau design plus moderne.
-* Remplacement de la gestion de langues de l’admin.
-
-
-
-## Mise à jour  1.2a
-
-### Réorganisation des dossiers DB et images
-
-* Déplacement du fichier models.php à la racine 
-* Déplacement des images dans /files/
-* Déplacement de la DB dans /sw-db/
-
-* Ajout du type "pages" dans les fonctions de blogging.  
-
-
-## Mise à jour  1.1
-
-### Ajout du block de type separation pour models.php
-```php
-'sp_seo' => array(
-'label' => ’Titre de cet espace’,
-'type' => 'separation'
-),
-```
-
-### Ajout d’une valeur height pour les textarea de models.php
-```php
-'sub_baseline' => array(
-'label' => ‘Mon texte’,
-'type' => 'textarea',
-'placeholder' => 'Un site cool pour tout le monde',
-'height'=> 60
-),
-```
-
-### Ajout des fonctions :
-```php
-$sw->cmsInfos();  // pour afficher le temps de génération de la page en commentaire
-
-$sw->hide_email($email);  // pour cacher une adresse email des moteurs de recherches.
-```
-
-### Pour le plugin de contact form :  exemple d'un formulaire écrit directement en HTML.
-
-### Corrections divers
-
-
-
 ## A Propos
 
-Développez en PHP5, ce Framework est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce Framework dispose de son propre moteur de DB orienté Document JSON. 
+Développeé en PHP5, ce Framework est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce Framework dispose de son propre moteur de DB orienté Document JSON. 
 
 Il permet également de créer une administration évolutive.
 
@@ -71,16 +21,67 @@ Découvrez [le site du projet](http://swalize.com/1.0/).
 ## Swalize-Framework est également une base que vous pouvez faire évoluer vous même.
 
 *   Il permet de créer facilement des sites multilingues
-*   IL supporte les plugins
+*   Il supporte les plugins
 *   Il pensé pour les sites onepage ou multipage dont la structure ne bouge pas.
 *   Il dispose de fonction de publication d'article avec des champs customisables.
 *   Il peut gérer un portfolio ou un catalogue de produit.
 *   Il peut sauvegarder les mails envoyé depuis le formulaire de contact.
 *   Il n'est pas optimisé pour les gros sites avec beaucoup de contenu.
-*   Il fonctionne sans base de donnée mais les données sensibles peuvent être encryptées.
-*   Il peut être efficace comme admin simple pour paramétres à distance des apps iOS et Android car il génère des données au format Json.
+*   Il fonctionne sans base de donnée.
+*   Il peut être efficace comme admin simple pour paramètres à distance des apps iOS et Android car il génère des données au format Json.
 
 Et évidemment, il sera régulièrement mis à jour sur Github.
+
+## Mises à jour 
+
+### Mise à jour  1.3
+
+* Nouveau design plus moderne.
+* Remplacement de la gestion de langues de l’admin.
+
+
+### Mise à jour  1.2a
+
+#### Réorganisation des dossiers DB et images
+
+* Déplacement du fichier models.php à la racine 
+* Déplacement des images dans /files/
+* Déplacement de la DB dans /sw-db/
+
+* Ajout du type "pages" dans les fonctions de blogging.  
+
+
+### Mise à jour  1.1
+
+#### Ajout du block de type separation pour models.php
+```php
+'sp_seo' => array(
+'label' => ’Titre de cet espace’,
+'type' => 'separation'
+),
+```
+
+#### Ajout d’une valeur height pour les textarea de models.php
+```php
+'sub_baseline' => array(
+'label' => ‘Mon texte’,
+'type' => 'textarea',
+'placeholder' => 'Un site cool pour tout le monde',
+'height'=> 60
+),
+```
+
+#### Ajout des fonctions :
+```php
+$sw->cmsInfos();  // pour afficher le temps de génération de la page en commentaire
+
+$sw->hide_email($email);  // pour cacher une adresse email des moteurs de recherches.
+```
+
+#### Pour le plugin de contact form :  exemple d'un formulaire écrit directement en HTML.
+
+#### Corrections diverses
+
 
 ## Comment débuter?
 

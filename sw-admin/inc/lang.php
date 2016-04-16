@@ -60,7 +60,7 @@
 'Image too Big'	=> 'Image trop lourde',
 'Bad picture'	=> 'Mauvais format d\'image',
 'already exists'	=> 'Existe déjà',
-'Add Picture'	=> 'Ajouter une image',
+'Add Picture'	=> 'Ajouter',
 'Uploading'	=> 'Téléchargement',
 'Add a new post'	=> 'Nouveau billet',
 'Edition'	=> '',
