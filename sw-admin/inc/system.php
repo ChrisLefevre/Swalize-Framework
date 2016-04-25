@@ -1,4 +1,4 @@
-<?php /* Vers 1.2 */ 
+<?php /* Vers 1.3a */ 
 include (ADMIN_URL . '../models.php');
 
 class sw
@@ -14,8 +14,11 @@ class sw
 			
 			
 		global $swcnt_plugins;
+	
+		
+		
 		global $swcnt_options;
-		$this->plugins = $swcnt_pluglist;
+
 		$this->ldb			 = '../sw-db/';
 		$swcnt_pluglist = array();
 		foreach($swcnt_plugins as $pname)
@@ -336,8 +339,8 @@ class sw
 				$d = file_get_contents($doc);
 				$d = str_replace('src=\"..\/files', 'src=\"' . $this->site_url . 'files', $d);
 				$d = str_replace("[lang]", $actlang, $d);
-				$d = str_replace("[site_url]", SITE_URL, $d);
-				$d = str_replace("[base_url]", SITE_URL . $actlang . '/', $d);
+				$d = str_replace("[site_url]", $this->site_url , $d);
+				$d = str_replace("[base_url]", $this->site_url  . $actlang . '/', $d);
 				$slots = json_decode($d, true);
 				}
 
@@ -715,7 +718,6 @@ public function hide_email($email)
 	
 	define('SITE_URL', $site_url);
 	define('TEMPLATE_URL', $site_url . '/template');
-	define('SITE_URL', $site_url);	
 	$this->site_url = $site_url;
 	return $siteinfo;
 	}
