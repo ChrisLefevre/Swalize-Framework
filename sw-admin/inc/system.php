@@ -563,20 +563,33 @@ class sw
 			krsort($newblogposts);
 			foreach($newblogposts as $k => $v)
 				{
+				
+					
+					
 				$tpost = $this->getPostBlogById($v['postid'],$pubtype);
 				$tagpost = 0;
 				$tags = explode(',', $tpost['keyword']);
 				foreach($tags as $gt)
 					{
+						
+						
 					if ($tag == $this->format_url($gt) and $tag != '') $tagpost = 1;
-					
+				
+				
 					
 					}
+				
+					
 					
 				if ((($tpost['status'] == 1 or $tpost['status'] == 3 ) and empty($cat) and $tag == '') 
-				or (($tpost['status'] == 1 or $tpost['status'] == 3 )  and $cat == $tpost['category']) 
+			
+				or (($tpost['status'] == 1 or $tpost['status'] == 3 )  and (!empty($cat) and $cat == $tpost['category'])) 
+				
 				or (($tpost['status'] == 1 or $tpost['status'] == 3 )  and $tagpost == 1))
 					{
+						
+				if(!empty($cat) and $cat == $tpost['category'])	echo $cat .' caaa '.$tpost['category'];
+						
 					
 						if($showonsite == 0 or (!empty($tpost['showonsite']) and in_array($showonsite, $tpost['showonsite']) ) ) {
 								
