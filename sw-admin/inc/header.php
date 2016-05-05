@@ -6,7 +6,7 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/dist/css/swadmin.css" rel="stylesheet" type="text/css" />
+    <link href="assets/dist/css/swadmin2.css" rel="stylesheet" type="text/css" />
 	<link href="assets/plugins/summernote-master/dist/summernote.css" rel="stylesheet" type="text/css" />
 	<link href="assets/plugins/lightbox/ekko-lightbox.min.css" rel="stylesheet" type="text/css" />
 	<link href="assets/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
