@@ -232,7 +232,11 @@
 	?>   
 	
 	         
-            
+               
+                 <li class=" <?php echo ($smod->mod=='translate') ?  'active' : '';  ?>">
+              <a href="?translate=home"><i class="material-icons">&#xE894;</i><span><?php echo _tr("Translate"); ?> </span> </a>
+            </li>
+ 
          
             
             
@@ -249,11 +253,7 @@
             
             
             
-                 
-                 <li class=" <?php echo ($smod->mod=='translate') ?  'active' : '';  ?>">
-              <a href="?translate=home"><i class="material-icons">&#xE894;</i><span><?php echo _tr("Translate"); ?> </span> </a>
-            </li>
-            
+                         
 
                       
             

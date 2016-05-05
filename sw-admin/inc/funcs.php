@@ -1274,7 +1274,7 @@ class swcnt_smod extends swcnt_sforms
 ?>">
               <a href="?plugin=<?php
             echo $t . '&lang=' . $this->lang;
-?>"><i class="material-icons">&#xE1BD;</i> <span><?php
+?>"><i class="material-icons"><?php if(empty($v['icon'])) echo '&#xE1BD;'; else echo $v['icon']; ?></i><span><?php
             echo $v['name'];
 ?> </span> <?php
             if (!empty($v['pages'])) {

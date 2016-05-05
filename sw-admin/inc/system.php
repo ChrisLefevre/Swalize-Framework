@@ -1,4 +1,4 @@
-<?php /* Vers 1.2 */ 
+<?php /* Vers 1.3b */ 
 include (ADMIN_URL . '../models.php');
 
 class sw

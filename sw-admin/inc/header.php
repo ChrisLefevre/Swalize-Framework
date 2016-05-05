@@ -11,7 +11,7 @@
 	<link href="assets/plugins/lightbox/ekko-lightbox.min.css" rel="stylesheet" type="text/css" />
 	<link href="assets/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
 	<link href="assets/plugins/tagsinput/bootstrap-tagsinput.css" rel="stylesheet" type="text/css" />
-	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 	<link rel="shortcut icon" href="assets/dist/img/icons/favicon.ico" type="image/x-icon" />
