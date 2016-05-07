@@ -726,7 +726,7 @@ public function hide_email($email)
 	if (!empty($siteinfo['site_url'])) $site_url = $siteinfo['site_url']; else $site_url = '/';
 	
 	define('SITE_URL', $site_url);
-	define('TEMPLATE_URL', $site_url . '/template');
+	define('TEMPLATE_URL', $site_url . 'template/');
 	define('SITE_URL', $site_url);	
 	$this->site_url = $site_url;
 	return $siteinfo;
