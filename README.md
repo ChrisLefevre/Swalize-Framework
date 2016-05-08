@@ -422,4 +422,4 @@ foreach ($sw -> blogposts(1, 100, 0,'','blog') as $k => $v)
 ### Createur
 
 Christophe Lefevre. 
-Belge. [LostIn1950](http://lostin1950.com/) 
+Belge. [Gluecose](http://gluecose.be/) 
