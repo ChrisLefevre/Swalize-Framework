@@ -632,6 +632,10 @@ class sw
 	function getPostBlogById($id,$pubtype = 'blog')
 		{
 		global $swcnt_blog;
+		global $swcnt_pages;
+		
+		$swcnt_blog  = ${'swcnt_' . $pubtype};
+
 		
 		if (!empty($swcnt_blog['sw_blocks']))
 			{
