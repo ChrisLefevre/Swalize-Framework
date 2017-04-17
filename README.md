@@ -5,6 +5,10 @@
 
 ![Swalize 2.0](preview.jpg)
 
+## Note
+
+Swalize n’est temporairement plus disponible au libre de téléchargement
+ 
 
 ## A Propos
 
@@ -419,7 +423,4 @@ foreach ($sw -> blogposts(1, 100, 0,'','blog') as $k => $v)
 
 
 
-### Createur
 
-Christophe Lefevre. 
-Belge. [LostIn1950](http://lostin1950.com/) 
