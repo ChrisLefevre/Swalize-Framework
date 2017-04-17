@@ -424,3 +424,8 @@ foreach ($sw -> blogposts(1, 100, 0,'','blog') as $k => $v)
 
 
 
+<<<<<<< HEAD
+=======
+Christophe Lefevre. 
+Belge. [Gluecose](http://gluecose.be/) 
+>>>>>>> origin/master
