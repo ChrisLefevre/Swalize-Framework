@@ -1,42 +1,42 @@
-# [Swalize](http://swalize.com/) 1.3
+# [Swalize](http://swalize.com/) 3.5
 
-
-![Swalize 2.0](preview.jpg)
-
-## Note
-
-Swalize 1.x n’est plus disponible au libre de téléchargement. Cette documentation est purement informative. 
-
-Swalize est fourni en version 2.0 avec le CMS [Litchi](https://glose.media/litchi/) 
- 
 
 ## A Propos
 
-Développé en PHP5, ce Framework est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement. Plutôt que d'utiliser une Base de donnée relationnelle ou un nosql. Ce Framework dispose de son propre moteur de DB orienté Document JSON. 
+Développé en PHP7, ce Framework est réalisé pour répondre à un besoin simple de rapidité et flexibilité. Il permet de créer un site vitrine d'entreprise multilingue rapidement, mais peut servir de base d'un e-commerce. Le Framework simplifie la gestion de la base de donnée en insérant les données sous forme de document JSON.
 
 Il permet également de créer une administration évolutive.
 
-Swalize est également un Framework avec des fonctionnalités classiques mais il fonctionne de façon peu conventionnelle. Son admin se customise avec un tableau. Vous pouver créer votre site et ensuite vous définir des zones éditables.
+Swalize est également un Framework avec des fonctionnalités classiques mais il fonctionne de façon peu conventionnelle. Son admin se customise avec un tableaux associatifs en PHP. Vous pouver créer votre site et ensuite vous définir des zones éditables.
 
-Il est totalement indiqué pour des sites responsive Bootstrap, et se montre beaucoup plus efficace que Wordpress pour les sites onepage multilingues. 
+Il est totalement indiqué pour des sites responsive Bootstrap, et se montre beaucoup plus efficace et rapide que Wordpress pour les sites multilingues.  
 
 Découvrez [le site du projet](http://swalize.com/1.0/). 
 
 ## Swalize-Framework est également une base que vous pouvez faire évoluer vous même.
 
-*   Il permet de créer facilement des sites multilingues
+*   Il permet de créer facilement des sites multilingues, et simplifie la traduction.
 *   Il supporte les plugins
-*   Il pensé pour les sites onepage ou multipage dont la structure ne bouge pas.
 *   Il dispose de fonction de publication d'article avec des champs customisables.
 *   Il peut gérer un portfolio ou un catalogue de produit.
 *   Il peut sauvegarder les mails envoyé depuis le formulaire de contact.
-*   Il n'est pas optimisé pour les gros sites avec beaucoup de contenu.
-*   Il fonctionne sans base de donnée.
-*   Il peut être efficace comme admin simple pour paramètres à distance des apps iOS et Android car il génère des données au format Json.
+*   Il est compatible MySQL et SQLlite
 
 Et évidemment, il sera régulièrement mis à jour sur Github.
 
-## Mises à jour 
+## Mises à jour essentielles 
+
+### Mise à jour  3.5
+
+* Simplification du code
+
+### Mise à jour  3.0
+
+* Corrections de bugs
+
+### Mise à jour  2.0
+
+* Support des Mysql & SQLlite en remplacement du système NODB orignal.
 
 ### Mise à jour  1.3
 
